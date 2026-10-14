@@ -56,7 +56,7 @@
   "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/743",
   "score": 54,
   "tier": "plausible",
-  "is_new": true,
+  "is_new": false,
   "note": "open PR already targets this: [747, 756, 758, 765, 771, 780, 784, 788, 791, 794, 801, 803, 804, 805, 806]"
  },
  {

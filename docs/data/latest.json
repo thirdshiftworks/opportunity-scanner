@@ -1,13 +1,13 @@
 {
  "scanner": "v2 (github-actions)",
- "scanned_at_utc": "2026-10-14T05:19:48Z",
- "stamp": "20261014-051749",
+ "scanned_at_utc": "2026-10-14T05:29:20Z",
+ "stamp": "20261014-052749",
  "counts": {
   "raw_total": 178,
   "passed": 17,
   "credible": 1,
   "plausible": 16,
-  "new": 1,
+  "new": 0,
   "new_credible": 0,
   "opportunities_listed": 17
  },
