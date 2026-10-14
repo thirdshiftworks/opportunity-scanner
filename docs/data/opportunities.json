@@ -10,6 +10,16 @@
   "note": "rail stated in issue only - re-verify before any work"
  },
  {
+  "title": "[BOUNTY $100] HOOK: Pre-tool-use hook that blocks destructive bash commands",
+  "platform": "GitHub (bounty labels)",
+  "amount": 100.0,
+  "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3",
+  "score": 57,
+  "tier": "credible",
+  "is_new": true,
+  "note": "very busy thread: 1841 comments (claim split unknown)"
+ },
+ {
   "title": "Privy.pro | Growth Marketing Engineer (AI-First) | REMOTE (Americas: US or LatAm) | Part-time contract, path to full-tim",
   "platform": "Hacker News (Who is hiring - contract only)",
   "amount": 5000.0,
@@ -70,24 +80,14 @@
   "note": "open PR already targets this: [12, 21, 8, 29, 47, 49, 62, 79, 89, 102, 113, 128]"
  },
  {
-  "title": "[BOUNTY $75] TEMPLATE: CLAUDE.md for a Next.js + SQLite SaaS project",
+  "title": "[BOUNTY $150] AGENT: Claude Code sub-agent that reviews a PR and posts a structured comment",
   "platform": "GitHub (bounty labels)",
-  "amount": 75.0,
-  "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2",
+  "amount": 150.0,
+  "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4",
   "score": 54,
   "tier": "plausible",
-  "is_new": false,
-  "note": "open PR already targets this: [9, 24, 31, 51, 58, 62, 68, 83, 92, 105, 120, 121, 122, 133, 141, 145, 165]"
- },
- {
-  "title": "[BOUNTY $50] SKILL: Generate a structured CHANGELOG from git history",
-  "platform": "GitHub (bounty labels)",
-  "amount": 50.0,
-  "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1",
-  "score": 54,
-  "tier": "plausible",
-  "is_new": false,
-  "note": "very busy thread: 2335 comments (claim split unknown)"
+  "is_new": true,
+  "note": "open PR already targets this: [10, 32, 54, 59, 70, 89, 114, 121, 122, 123, 139, 147, 152]"
  },
  {
   "title": "Role: UX/UI Designer (BAY AREA, CA - HYBRID) 1099 CONTRACT",
