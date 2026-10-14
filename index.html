@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Opportunity Radar — Third Shift Works</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 2rem 1rem 3rem;
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: #0d1117; color: #e6edf3; line-height: 1.5;
+  }
+  main { max-width: 960px; margin: 0 auto; }
+  header { border-bottom: 1px solid #30363d; padding-bottom: 1rem; margin-bottom: 1.5rem; }
+  h1 { margin: 0 0 .25rem; font-size: 1.9rem; letter-spacing: .01em; }
+  h1 .studio { color: #f0b429; }
+  .tagline { color: #9aa7b4; margin: 0; }
+  .honest {
+    background: #161b22; border: 1px solid #30363d; border-radius: 8px;
+    padding: .75rem 1rem; color: #9aa7b4; font-size: .92rem; margin-bottom: 1.5rem;
+  }
+  .stats { display: flex; flex-wrap: wrap; gap: .75rem; margin-bottom: 1.5rem; }
+  .stat {
+    background: #161b22; border: 1px solid #30363d; border-radius: 8px;
+    padding: .6rem 1rem; min-width: 8.5rem;
+  }
+  .stat b { display: block; font-size: 1.35rem; color: #fff; }
+  .stat span { color: #9aa7b4; font-size: .8rem; text-transform: uppercase; letter-spacing: .06em; }
+  table { width: 100%; border-collapse: collapse; background: #161b22; border: 1px solid #30363d; border-radius: 8px; overflow: hidden; }
+  th, td { text-align: left; padding: .6rem .8rem; border-bottom: 1px solid #21262d; vertical-align: top; }
+  th { color: #9aa7b4; font-size: .8rem; text-transform: uppercase; letter-spacing: .06em; }
+  tr:last-child td { border-bottom: none; }
+  a { color: #58a6ff; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .amount { white-space: nowrap; font-weight: 600; color: #3fb950; }
+  .score { white-space: nowrap; }
+  .badge {
+    display: inline-block; padding: .05rem .5rem; border-radius: 999px;
+    font-size: .75rem; font-weight: 600; border: 1px solid #30363d; color: #9aa7b4;
+  }
+  .badge.credible { color: #3fb950; border-color: #3fb950; }
+  .badge.new { color: #f0b429; border-color: #f0b429; margin-left: .35rem; }
+  .note { color: #9aa7b4; font-size: .9rem; }
+  .empty, .error { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 1rem; color: #9aa7b4; }
+  footer { margin-top: 2rem; color: #6e7b8a; font-size: .85rem; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1><span class="studio">Third Shift Works</span> — Opportunity Radar</h1>
+    <p class="tagline">You post the job. It's done by morning.</p>
+  </header>
+
+  <p class="honest">
+    This page lists <strong>public job and bounty listings</strong> that Third Shift Works'
+    nightly scanner is currently evaluating. They are not clients, not contracted work, and
+    not earnings — just public opportunities, scored for credibility by an automated sweep of
+    public boards. Anything the studio acts on gets a manual audit and human approval first.
+  </p>
+
+  <div class="stats" id="stats">
+    <div class="stat"><b id="stat-updated">…</b><span>Last scan (UTC)</span></div>
+    <div class="stat"><b id="stat-raw">…</b><span>Listings scanned</span></div>
+    <div class="stat"><b id="stat-listed">…</b><span>On the radar</span></div>
+    <div class="stat"><b id="stat-credible">…</b><span>Credible</span></div>
+    <div class="stat"><b id="stat-new">…</b><span>New this run</span></div>
+  </div>
+
+  <div id="content"><p class="empty">Loading the latest scan…</p></div>
+
+  <footer>
+    Updated automatically each night by a GitHub Actions robot running the studio's
+    read-only scanner. Sources: Opire, GitHub / GitLab bounty labels, Superteam Earn,
+    Hacker News freelancer threads.
+  </footer>
+</main>
+
+<script>
+(function () {
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+  function money(v) {
+    if (v == null || isNaN(v)) return "—";
+    return "$" + Number(v).toLocaleString("en-US", { maximumFractionDigits: 0 });
+  }
+
+  Promise.all([
+    fetch("data/latest.json").then(function (r) { if (!r.ok) throw new Error("latest.json " + r.status); return r.json(); }),
+    fetch("data/opportunities.json").then(function (r) { if (!r.ok) throw new Error("opportunities.json " + r.status); return r.json(); })
+  ]).then(function (res) {
+    var latest = res[0], opps = res[1];
+    var counts = latest.counts || {};
+
+    document.getElementById("stat-updated").textContent =
+      (latest.scanned_at_utc || "—").replace("T", " ").replace("Z", "");
+    document.getElementById("stat-raw").textContent = counts.raw_total != null ? counts.raw_total : "—";
+    document.getElementById("stat-listed").textContent = opps.length;
+    document.getElementById("stat-credible").textContent = counts.credible != null ? counts.credible : "—";
+    document.getElementById("stat-new").textContent = counts.new != null ? counts.new : "—";
+
+    var box = document.getElementById("content");
+    if (!opps.length) {
+      box.innerHTML = '<p class="empty">Nothing on the radar right now — the last scan found no ' +
+        'credible or watchlist listings. The robot checks again tonight.</p>';
+      return;
+    }
+
+    var rows = opps.map(function (o) {
+      var tier = o.tier === "credible"
+        ? '<span class="badge credible">credible</span>'
+        : '<span class="badge">watchlist</span>';
+      var isNew = o.is_new ? '<span class="badge new">new</span>' : "";
+      return "<tr>" +
+        "<td><a href=\"" + esc(o.url) + "\" target=\"_blank\" rel=\"noopener\">" + esc(o.title) + "</a>" +
+          "<div>" + tier + isNew + "</div></td>" +
+        "<td>" + esc(o.platform) + "</td>" +
+        "<td class=\"amount\">" + money(o.amount) + "</td>" +
+        "<td class=\"score\">" + (o.score != null ? esc(o.score) + "/100" : "—") + "</td>" +
+        "<td class=\"note\">" + esc(o.note) + "</td>" +
+        "</tr>";
+    }).join("");
+
+    box.innerHTML = "<table><thead><tr>" +
+      "<th>Opportunity</th><th>Platform</th><th>Amount</th><th>Score</th><th>Note</th>" +
+      "</tr></thead><tbody>" + rows + "</tbody></table>";
+  }).catch(function (err) {
+    document.getElementById("content").innerHTML =
+      '<p class="error">Could not load the latest scan data (' + esc(err.message) +
+      '). The robot publishes fresh data every night — please check back.</p>';
+  });
+})();
+</script>
+</body>
+</html>

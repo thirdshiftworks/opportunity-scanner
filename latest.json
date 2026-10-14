@@ -1,0 +1,57 @@
+{
+ "scanner": "v2 (github-actions)",
+ "scanned_at_utc": "2026-10-14T05:19:48Z",
+ "stamp": "20261014-051749",
+ "counts": {
+  "raw_total": 178,
+  "passed": 17,
+  "credible": 1,
+  "plausible": 16,
+  "new": 1,
+  "new_credible": 0,
+  "opportunities_listed": 17
+ },
+ "sources": {
+  "Opire": {
+   "raw": 5,
+   "passed": 0,
+   "credible": 0
+  },
+  "GitHub (bounty labels)": {
+   "raw": 60,
+   "passed": 8,
+   "credible": 1
+  },
+  "GitLab (bounty labels)": {
+   "raw": 60,
+   "passed": 10,
+   "credible": 0
+  },
+  "Superteam Earn": {
+   "raw": 18,
+   "passed": 0,
+   "credible": 0
+  },
+  "Hacker News (freelancer + contract threads)": {
+   "raw": 35,
+   "passed": 5,
+   "credible": 0
+  },
+  "Reddit (appendix)": {
+   "raw": 0,
+   "passed": 0,
+   "credible": 0
+  },
+  "Probed non-sources": {
+   "raw": 0,
+   "passed": 0,
+   "credible": 0
+  },
+  "Hacker News (Who is hiring - contract only)": {
+   "raw": 0,
+   "passed": 0,
+   "credible": 0
+  }
+ },
+ "new_credible": []
+}

@@ -1,0 +1,99 @@
+# Third Shift Works — nightly opportunity scan robot.
+#
+# Runs the read-only scanner on GitHub's free runners (public repo), commits
+# the updated seen-database + public dashboard data back to main, and opens
+# one issue per genuinely NEW credible find. The scanner only reads public
+# boards: it never bids, comments, claims, or spends anywhere.
+
+name: Nightly opportunity scan
+
+on:
+  schedule:
+    # ~2:09 AM America/Chicago during daylight time (07:09 UTC).
+    - cron: "9 7 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write # commit seen.json + docs/data back to main
+  issues: write # open one issue per new credible find
+
+concurrency:
+  group: nightly-scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Stdlib only — no pip install step on purpose.
+      # A scanner failure fails this step (and the whole run) loudly:
+      # no continue-on-error, no `|| true` here, ever.
+      - name: Run the scanner
+        env:
+          # Raises the GitHub API rate limit for enrichment calls.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scan.py
+
+      - name: Commit updated seen-db and dashboard data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add seen.json docs/data/latest.json docs/data/opportunities.json
+          if git diff --cached --quiet; then
+            echo "Scanner data unchanged — nothing to commit."
+          else
+            git commit -m "chore(scan): nightly update $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Open issues for new credible finds
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # The `new` label must exist before `gh issue create --label` works.
+          gh label create new \
+            --description "New credible find from the nightly scanner" \
+            --color "0e8a16" --force || true
+
+          count="$(jq '.new_credible | length' docs/data/latest.json)"
+          echo "New credible finds this run: ${count}"
+          if [ "${count}" -eq 0 ]; then
+            exit 0
+          fi
+
+          # Snapshot existing issue titles once, for the duplicate guard.
+          existing="$(gh issue list --state all --limit 500 --json title --jq '.[].title')"
+
+          jq -c '.new_credible[]' docs/data/latest.json | while IFS= read -r row; do
+            title="$(jq -r '.title' <<<"${row}")"
+            amount="$(jq -r '.amount' <<<"${row}")"
+            platform="$(jq -r '.platform' <<<"${row}")"
+            url="$(jq -r '.url' <<<"${row}")"
+            score="$(jq -r '.score' <<<"${row}")"
+            effort="$(jq -r '.effort // "?"' <<<"${row}")"
+            note="$(jq -r '.note' <<<"${row}")"
+            ititle="[Opportunity] ${title} — \$${amount}"
+
+            if grep -Fqx "${ititle}" <<<"${existing}"; then
+              echo "Issue already exists, skipping: ${ititle}"
+              continue
+            fi
+
+            body="$(printf 'New credible find from the nightly Third Shift Works opportunity scan.\n\n- **Platform:** %s\n- **Amount:** $%s\n- **Credibility score:** %s/100\n- **Listing:** %s\n- **Estimated effort:** ~%s\n- **Note:** %s\n\nPublic listing data only. Acting on this still needs the usual manual audit (repo rules, rail check) and human approval before any claim or submission.' \
+              "${platform}" "${amount}" "${score}" "${url}" "${effort}" "${note}")"
+
+            if gh issue create --title "${ititle}" --body "${body}" --label new; then
+              echo "Opened issue: ${ititle}"
+            else
+              echo "WARNING: could not open issue for: ${ititle}" >&2
+            fi
+          done

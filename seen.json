@@ -1,0 +1,1942 @@
+{
+ "https://github.com/rodrigompy/bugb/issues/1": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 100.0,
+  "title": "c1work",
+  "score": null,
+  "verdict": "work type not a Muse fit"
+ },
+ "https://github.com/radumarias/rencfs/issues/3": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 42.0,
+  "title": "research implementation for Windows",
+  "score": null,
+  "verdict": "rejected: blocklisted - contested graveyard: deliverable already PR'd, 23 open PRs, reward stale-pending on Opire"
+ },
+ "https://github.com/trovu/trovu/issues/329": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 30.0,
+  "title": "Open target URLs not in PWA but in default browser",
+  "score": null,
+  "verdict": "rejected: blocklisted - platform-blocked: feasibility study verdict LIKELY IMPOSSIBLE (52+ failed PRs; WebAPK intent loop)"
+ },
+ "https://github.com/flowese/UdioWrapper/issues/7": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 20.0,
+  "title": "500 Server Error - Auto Solve hcapcha",
+  "score": null,
+  "verdict": "rejected: abuse-tooling"
+ },
+ "https://github.com/buape/kiai-bounties/issues/1": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 20.0,
+  "title": "Images on the bottom of level up messages",
+  "score": null,
+  "verdict": "work type not a Muse fit"
+ },
+ "https://github.com/DeonUrist/WildWasteland/issues/115": {
+  "first_seen": "20261014-030524",
+  "pay": null,
+  "title": "[Patrols] Retribution patrols/bounty hunters from coyotes if attacked by player",
+  "verdict": "no stated pay"
+ },
+ "https://github.com/Uuriko/project-room/issues/3275": {
+  "first_seen": "20261014-030524",
+  "pay": null,
+  "title": "[Medium] Escrow settlement is not atomic across its two stores: in-memory dispute machine survives DB rollback, and closeEpoch commits partial settlements on per-bounty errors",
+  "verdict": "no stated pay"
+ },
+ "https://github.com/sybil-solutions/local-ai-registry/issues/217": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 50.0,
+  "title": "Bounty $50: recipe for RTX 2080 Ti 11 GB",
+  "score": null,
+  "verdict": "rejected: blocklisted - hardware-gated: requires a physical RTX 2080 Ti"
+ },
+ "https://github.com/promptpolish-ai/git-context/issues/2": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Add --json output mode (Bounty: $2 crypto)",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://github.com/Saidur-droid/MergeEarn/issues/33": {
+  "first_seen": "20261014-030524",
+  "pay": null,
+  "title": "[LIVE] Verified NIM bounty board",
+  "verdict": "no stated pay"
+ },
+ "https://github.com/sybil-solutions/local-ai-registry/issues/218": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 50.0,
+  "title": "Bounty $50: recipe for GTX 1080 Ti 11 GB",
+  "score": null,
+  "verdict": "rejected: blocklisted - hardware-gated: requires a physical GTX 1080 Ti"
+ },
+ "https://github.com/arakoodev/EdgeChains/issues/279": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "BOUNTY: add support for Google Palm2 API in javascript/typescript",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://github.com/arakoodev/EdgeChains/issues/286": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "BOUNTY: Convert the endpoints to a smart router like litellm does in python",
+  "verdict": "no stated pay"
+ },
+ "https://github.com/FuRongJun-1999/dsh-bounty/issues/281": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "【贡献申报】18 件缺陷修复（dsh-bounty ×11 ＋ lingshu ×7）",
+  "verdict": "no stated pay"
+ },
+ "https://github.com/dev-kp-eloper/BountyScout/issues/1587": {
+  "first_seen": "20261014-030524",
+  "pay": null,
+  "title": "🎯 Bounty Alert: 13 New Opportunityies found",
+  "verdict": "no stated pay"
+ },
+ "https://github.com/MergeFi/backend/issues/613": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "POST /milestones/:id/allocate and /bounties/:id/approve|reject are documented in Swagger as working operations",
+  "verdict": "no stated pay"
+ },
+ "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 75.0,
+  "title": "[BOUNTY $75] TEMPLATE: CLAUDE.md for a Next.js + SQLite SaaS project",
+  "score": 54,
+  "verdict": "pass"
+ },
+ "https://github.com/freedom-winds/BountyScout/issues/1248": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "🎯 Bounty Alert: 9 New Opportunityies found",
+  "verdict": "no stated pay"
+ },
+ "https://github.com/markabramov1993/arbitr/issues/8": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "[RADAR] High-value blockchain bounty discovery",
+  "verdict": "no stated pay"
+ },
+ "https://github.com/Uuriko/project-room/issues/3307": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "Dispute bond is specified two ways: dispute machine opens at max(1, 5% of bounty), escrow enforces exactly 25%",
+  "verdict": "no stated pay"
+ },
+ "https://github.com/ditto-assistant/ditto-subnet/issues/2054": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Epic: 5% maintenance treasury and miner bounty operations",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://github.com/FuRongJun-1999/dsh-bounty/issues/213": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "【贡献申报】15 件缺陷报告（dsh-bounty ×10 ＋ lingshu ×5）",
+  "verdict": "no stated pay"
+ },
+ "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/4": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 750.0,
+  "title": "[PAID BOUNTY - $750] Email Threads API",
+  "score": 54,
+  "verdict": "pass"
+ },
+ "https://github.com/abdulsalam-create/bounty-watch/issues/114": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "bounty-watch 2026-10-13: 0 new, 1 resumed, 5 watchlist changes",
+  "verdict": "no stated pay"
+ },
+ "https://github.com/habibdxb01/bounty-watcher/issues/5": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 150.0,
+  "title": "📋 2 open bounties right now",
+  "score": null,
+  "verdict": "rejected: digest/list-not-a-task"
+ },
+ "https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1312": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "[BOUNTY] Suggestion #1285",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://github.com/devpool-directory/devpool-directory/issues/5924": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "Launch Another DoraHacks Bounty Post",
+  "verdict": "no stated pay"
+ },
+ "https://github.com/agile-students-fall2026/generic-mern-stack-project-bounty/issues/20": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "As someone who lost their item, I want to mark who helped me when resolving the post so that the bounty is recorded as going to the right person.",
+  "verdict": "no stated pay"
+ },
+ "https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1313": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "[BOUNTY] Suggestion #1286",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://github.com/agile-students-fall2026/generic-mern-stack-project-bounty/issues/15": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "As someone who lost their item, I want to attach an optional bounty to my post so that more people are motivated to help look for it.",
+  "verdict": "no stated pay"
+ },
+ "https://github.com/tscircuit/docs/issues/886": {
+  "first_seen": "20261014-030325",
+  "pay": 50.0,
+  "title": "Migrate schematic-only ESP32 module circuit example bounty from archived docs-old#47",
+  "verdict": "pass"
+ },
+ "https://github.com/SUSU-LABS/susu-contracts/issues/44": {
+  "first_seen": "20261014-030325",
+  "pay": 80.0,
+  "title": "[Bounty: $80] Test that a re-entrant token cannot double-pay across two rounds",
+  "verdict": "pass"
+ },
+ "https://github.com/SUSU-LABS/susu-contracts/issues/33": {
+  "first_seen": "20261014-030325",
+  "pay": 110.0,
+  "title": "[Bounty: $110] Extend persistent TTL on the Group read paths so idle groups keep their membership",
+  "verdict": "pass"
+ },
+ "https://github.com/yosemite01/stellar-creator-portfolio/issues/1520": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "Restrict `/api/bounties/[id]/suggested-creators` to the bounty owner",
+  "verdict": "no stated pay"
+ },
+ "https://github.com/DepRadarOrg/DepRadar/issues/166": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "[frontend] Show the scanner's detection for a bounty's package",
+  "verdict": "no stated pay"
+ },
+ "https://github.com/yosemite01/stellar-creator-portfolio/issues/1613": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "Admin reports: export CSV for revenue, users, bounties, disputes",
+  "verdict": "no stated pay"
+ },
+ "https://github.com/DepRadarOrg/DepRadar/issues/171": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "[contract] Reject self-claims by the bounty creator",
+  "verdict": "no stated pay"
+ },
+ "https://github.com/chiuhehe1-design/conm/issues/18": {
+  "first_seen": "20261014-030325",
+  "pay": 2340.0,
+  "title": "[Bounty Solution] microg/GmsCore#2843: [BOUNTY] WearOS Support [$2340]",
+  "verdict": "pass"
+ },
+ "https://superteam.fun/earn/listing/vaultline-security-audit-grants-for-colosseum-projects-up-to-4000-usdc-each": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 40000.0,
+  "title": "Vaultline Security Audit Grants for Colosseum Projects: Up to 4,000 USDC Each",
+  "score": null,
+  "verdict": "rejected: Superteam HUMAN_ONLY - needs human talent profile + human submission"
+ },
+ "https://superteam.fun/earn/listing/drive-attention-to-segmento-projects": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 500.0,
+  "title": "Drive Attention to Segmento Projects",
+  "score": null,
+  "verdict": "rejected: Superteam HUMAN_ONLY - needs human talent profile + human submission"
+ },
+ "https://superteam.fun/earn/listing/write-a-thread-or-long-post-price-comparison": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 500.0,
+  "title": "Write a Thread or Long Post: Price Comparison",
+  "score": null,
+  "verdict": "rejected: Superteam HUMAN_ONLY - needs human talent profile + human submission"
+ },
+ "https://superteam.fun/earn/listing/climb-our-reader-leaderboard-for-sepoct-2026": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 250.0,
+  "title": "Climb Our Reader Leaderboard for Sep/Oct 2026",
+  "score": null,
+  "verdict": "rejected: Superteam HUMAN_ONLY - needs human talent profile + human submission"
+ },
+ "https://superteam.fun/earn/listing/make-a-video-season-zero-pump-the-pool-3-and-social-quests": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 500.0,
+  "title": "Make a Video: Season Zero, Pump the Pool 3 and Social Quests",
+  "score": null,
+  "verdict": "rejected: Superteam HUMAN_ONLY - needs human talent profile + human submission"
+ },
+ "https://superteam.fun/earn/listing/write-a-post-dust-sweeper-how-social-quests-earn-you-xp": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 500.0,
+  "title": "Write a Post: Dust Sweeper + How Social Quests Earn You XP",
+  "score": null,
+  "verdict": "rejected: Superteam HUMAN_ONLY - needs human talent profile + human submission"
+ },
+ "https://superteam.fun/earn/listing/arf-superteam-turkiye-university-track": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 3000.0,
+  "title": "Arf × Superteam Türkiye — University Track",
+  "score": null,
+  "verdict": "rejected: Superteam HUMAN_ONLY - needs human talent profile + human submission"
+ },
+ "https://superteam.fun/earn/listing/pitch-and-demo-your-product-at-online-demo-day": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 1800.0,
+  "title": "Pitch & Demo Your Product at the Demo Day",
+  "score": null,
+  "verdict": "rejected: Superteam HUMAN_ONLY - needs human talent profile + human submission"
+ },
+ "https://superteam.fun/earn/listing/mobile": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 1600.0,
+  "title": "Get your Seeker app to Mainnet 📱🇧🇷 Solana Mobile Brazil special track",
+  "score": null,
+  "verdict": "rejected: Superteam HUMAN_ONLY - needs human talent profile + human submission"
+ },
+ "https://superteam.fun/earn/listing/grow-rewards-make-your-first-move": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 500.0,
+  "title": "Grow Rewards: Make Your First Move",
+  "score": null,
+  "verdict": "rejected: Superteam HUMAN_ONLY - needs human talent profile + human submission"
+ },
+ "https://superteam.fun/earn/listing/try-a-solana-project-and-give-useful-feedback-tokengems": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 350.0,
+  "title": "Try a Solana Project and Give Useful Feedback | TokenGems",
+  "score": null,
+  "verdict": "rejected: Superteam HUMAN_ONLY - needs human talent profile + human submission"
+ },
+ "https://superteam.fun/earn/listing/colosseum-founder-support-talk-to-5-users": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 1000.0,
+  "title": "Colosseum: Founder Support - Talk to 5 Users",
+  "score": null,
+  "verdict": "rejected: Superteam HUMAN_ONLY - needs human talent profile + human submission"
+ },
+ "https://superteam.fun/earn/listing/bring-your-friends-to-segmento": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 500.0,
+  "title": "Bring Your Friends to Segmento",
+  "score": null,
+  "verdict": "rejected: Superteam HUMAN_ONLY - needs human talent profile + human submission"
+ },
+ "https://superteam.fun/earn/listing/launch-and-trade-on-daejin-write-a-twitter-thread-and-create-a-market": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 620.0,
+  "title": "Launch & Trade on Daejin: Write a Twitter Thread and Create a Market",
+  "score": null,
+  "verdict": "rejected: Superteam HUMAN_ONLY - needs human talent profile + human submission"
+ },
+ "https://superteam.fun/earn/listing/crea-contenido-para-promocionar-el-encuentro-2026": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 2000.0,
+  "title": "Crea Contenido para Promocionar El Encuentro 2026 en Madrid",
+  "score": null,
+  "verdict": "work type not a Muse fit"
+ },
+ "https://superteam.fun/earn/listing/chimp-on-metaplex": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 2000.0,
+  "title": "Write a thread on $CHIMP Launching on Metaplex - Part 1",
+  "score": null,
+  "verdict": "rejected: Superteam HUMAN_ONLY - needs human talent profile + human submission"
+ },
+ "https://superteam.fun/earn/listing/panta-x-nectarfi-trading-competition-bounty": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 500.0,
+  "title": "Panta x NectarFi Trading Competition Bounty",
+  "score": null,
+  "verdict": "rejected: Superteam HUMAN_ONLY - needs human talent profile + human submission"
+ },
+ "https://superteam.fun/earn/listing/create-content-on-premier-league-predictions-with-worm": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 500.0,
+  "title": "Create Content on Premier League Predictions with worm 🪱⚽",
+  "score": null,
+  "verdict": "rejected: Superteam HUMAN_ONLY - needs human talent profile + human submission"
+ },
+ "https://news.ycombinator.com/item?id=45438503": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Please state the location and include REMOTE for remote work, REMOTE (US)",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45438508": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "REMOTE (US-West preferred) OR on-site (DC, SF or London) We are looking for a passionate and experienced Distributed Sys",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45562529": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "Do you have a company work email address?",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45582324": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "Apologies for posting this anonymously, I know it looks sketchy. We are doing this intentionally to filter out people th",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45438511": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "Fundamental Research Labs | Machine Learning Engineers, Software Engineers, Ex-founders, Researchers | Menlo Park, CA | ",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45440954": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "If your firm has 15 or more employees, California requires that you post salary ranges for each open position. See calma",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45585707": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "Modeling human societies and interaction dynamics is extraordinarily challenging yet potentially transformative—solving ",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45438513": {
+  "first_seen": "20261014-030325",
+  "pay": 71.0,
+  "title": "SmarterDx | 150-250k+ + equity + benefits | Remote (US only) | Multiple roles |  https://smarterdx.com/careers  We build",
+  "verdict": "rejected: clinical/medical"
+ },
+ "https://news.ycombinator.com/item?id=45445899": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "Just applied to this! I have a lot of experience (5 years) building and optimizing data pipelines from diverse sources u",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45438532": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "ReciPal ( https://www.recipal.com ) | Founding Rails/Full Stack Software Engineer | REMOTE | Full-Time We aren&#x27;t ac",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45438549": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "Temporal Technologies | Multiple positions in United States - WORK FROM HOME | FULL-TIME | Temporal offers an entirely n",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45438559": {
+  "first_seen": "20261014-030325",
+  "pay": 150.0,
+  "title": "Raremarq | Founding Engineer | Full-time | Fully Remote | $150K + founding-engineer equity Raremarq (raremarq.com) is bu",
+  "verdict": "pass"
+ },
+ "https://news.ycombinator.com/item?id=45438585": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "Beacon AI | San Carlos, CA | Hybrid (On-Site) | Full-Time We’re a mission-oriented company building pilot assistance tec",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45438594": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "Doist | Backend Engineer, Apple Engineer | REMOTE | Full-time |  https://doist.com/careers  We create simple yet powerfu",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45461544": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "Hey all, Apple Engineer will open on Monday, Oct 6th! Watch out for it on our careers page. And for the Backend Engineer",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45492577": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "T&#x27;is almost 12pm EST now , the role is not online yet !",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45438654": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "Moyai | Amsterdam, The Netherlands | FULL-TIME | ONSITE | Founding AI Engineer | 60k-80k + Equity About the company: • T",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45438697": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "Channable | Utrecht, Netherlands | ONSITE Channable is a fast-growing B2B SaaS platform that offers a fully integrated w",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45438747": {
+  "first_seen": "20261014-030325",
+  "pay": 20.0,
+  "title": "Allied General | Northern Mexico  | REMOTE (Mexico) with frequent travel or ONSITE | Full time - Can you handle projects",
+  "verdict": "pass"
+ },
+ "https://news.ycombinator.com/item?id=45438827": {
+  "first_seen": "20261014-030325",
+  "pay": 55.0,
+  "title": "Beautiful.ai | Full-Time | Remote in US & CAN | SaaS B2B Presentation Software | Series B | 16M Funding | AI Industry 1.",
+  "verdict": "pass"
+ },
+ "https://news.ycombinator.com/item?id=45440982": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "open to eu-based contractors?",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45487243": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "No.",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45438828": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "HomeCloud | Senior Cloud Engineer (AWS / Node.js / TypeScript) | Remote (US, EU UTC-6 to UTC+2) | Full-Time (Contractor)",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45438833": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "Zeven | Senior Backend Developer | ONSITE in Zurich (Switzerland) | Full-time | Competitive salary + stock options We&#x",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45515535": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "The job seems like a close match. Do you offer visa sponsorship as well?",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45438845": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "ROCKSTAR GAMES | NYC-San Diego-New England| FULL-TIME | FULLY ONSITE | SENIOR .NET SOFTWARE ENGINEERS | Existing Visa Tr",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45438921": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "Aha! ( https://www.aha.io ) | Rails / React / Devops | REMOTE Aha! is the #1 tool for product managers to plan strategy ",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45439039": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "CoPlane ( https://coplane.com/ ) | Infra (BYOC) Platform Eng and Product/Design Engineer | Remote (North America) or NYC",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45439042": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "Strum AI | Founding/Lead Engineer |  https://www.linkedin.com/company/strum-ai/  At Strum, we&#x27;re reimagining techno",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45439056": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "PlantingSpace | Full-time | Remote (EU time zone) + Quarterly Meet-ups |  https://planting.space  We’re building an AI s",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45439058": {
+  "first_seen": "20261014-030325",
+  "pay": 26.0,
+  "title": "Oso | Multiple Roles | New York, NY | ONSITE | Competitive Salary + Equity Oso is a developer-first authorization system",
+  "verdict": "pass"
+ },
+ "https://news.ycombinator.com/item?id=45439063": {
+  "first_seen": "20261014-030325",
+  "pay": 200.0,
+  "title": "WireScreen (Series A) | Senior Software Engineer | NYC - hybrid | Full-time | $165k-$200k base + equity |  https://jobs.",
+  "verdict": "pass"
+ },
+ "https://news.ycombinator.com/item?id=45439075": {
+  "first_seen": "20261014-030325",
+  "pay": 150.0,
+  "title": "Cora AI | Founding Engineer | Remote (USA only; Bay Area / CA preferred) | Full-time | $150–200k + early equity We’re bu",
+  "verdict": "pass"
+ },
+ "https://news.ycombinator.com/item?id=45439102": {
+  "first_seen": "20261014-030325",
+  "pay": 20.0,
+  "title": "Checkly | Multiple Roles | REMOTE | Full time |  https://www.checklyhq.com/  Checkly helps engineers build reliable prod",
+  "verdict": "pass"
+ },
+ "https://news.ycombinator.com/item?id=45439105": {
+  "first_seen": "20261014-030325",
+  "pay": 180.0,
+  "title": "Rocket Alumni Solutions |  https://rocketalumnisolutions.com  | Frontend Engineer | REMOTE (Crossover with EST timezone)",
+  "verdict": "pass"
+ },
+ "https://news.ycombinator.com/item?id=45439136": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "Cleverbase | Lead Mobile Developer | Remote (Europe), The Hague, Netherlands) | Full-time | €78k - €96k |  https://vidua",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45439269": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "404 :(",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45442009": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "Thanks. Fixed now.",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45439138": {
+  "first_seen": "20261014-030325",
+  "pay": 250.0,
+  "title": "Stealth Vertical AI Startup (a16z Speedrun 006) | Founding AI Engineer | San Francisco | Onsite | $120K + Top Equity We&",
+  "verdict": "pass"
+ },
+ "https://news.ycombinator.com/item?id=45439212": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "Squint | Onsite, San Francisco | Squint is the leading manufacturing intelligence platform. We&#x27;re leveraging the la",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45439259": {
+  "first_seen": "20261014-030325",
+  "pay": 200.0,
+  "title": "Scholarly | Software Engineer | Seattle, On-Site | Full-Time | $130k - $200k + equity + health benefits + equipment budg",
+  "verdict": "pass"
+ },
+ "https://news.ycombinator.com/item?id=45439321": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "Vibrant ( https://www.vibrantpractice.com ) | Founding Applied AI Engineer | Full-Time | SF Bay Area (hybrid) We&#x27;re",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45439363": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "pod network | Competitive salary + equity | Remote or on site in Athens, Greece | multiple roles |  https://pod.network/",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45439396": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "Ours Privacy ( https://oursprivacy.com ) | Senior/Principal Software Engineer | Full-stack | Remote (US) Ours Privacy is",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45439401": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "Continua AI |  https://continua.ai  | Multiple Roles | ONSITE (NYC/Seattle) | Full-time | Salary + Equity At Continua ( ",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45439438": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "Sumble is the newco from the founders of Kaggle. We are hiring software engineers, data engineers, machine learning/ai e",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45439479": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "OnFrontiers | Senior Engineer | Hybrid/Remote | NYC or Baltimore OnFrontiers is hiring a strong senior engineer with exp",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45439500": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "LaunchDarkly is hiring",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45439517": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "Frequenz Energy-as-a-Service GmbH | Full-Time | Berlin/Hybrid-Possible, Germany We are a technology company developing g",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45439542": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "Smarkets ( https://www.smarkets.com ) | Full Time | Hybrid - Onsite (London, UK), Remote - Indiana, US and Sweden Smarke",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45439587": {
+  "first_seen": "20261014-030325",
+  "pay": 250.0,
+  "title": "Crux | cruxclimate.com | FULLY REMOTE (US/Canada)| Full-time | Hiring across eng, Product, Design | $140k-$250k base + e",
+  "verdict": "pass"
+ },
+ "https://news.ycombinator.com/item?id=45439673": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "Hiring Tech Lead - Backend Engineer - AI Engineer - Staff Frontend – REMOTE LATAM - Tech Lead in San Francisco",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45439701": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "LiquidFi (Miami, FL) | Senior Software Engineer - Solidity + Python | ONSITE | Full-time |  https://liquidfi.io  We&#x27",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45444237": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "I got the error that this email talent@liquidfi.io doesn&#x27;t exist. &quot;We&#x27;re writing to let you know that the",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45463601": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "Apologies - it was a permissions thing - you can post to it now.",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45439708": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "Multiply | Python + SQL Software Engineer | On-site | Mauritius We build repricing software that keeps online sellers on",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45443557": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "I&#x27;ve never seen a job here based in Mauritius; that would be a cool place to work. I&#x27;m not sure I could move t",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45446065": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "Because a primarily french-speaking African country is … ? I am not sure what is your point. Also Mauritius has signific",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45449732": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "I&#x27;ve interacted with dev teams in Mauritius. The dev culture was more Indian than it was anything else. It&#x27;s n",
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45451019": {
+  "first_seen": "20261014-030325",
+  "pay": null,
+  "title": "I don&#x27;t speak french and don&#x27;t have any African family/friends. Sorry I didn&#x27;t mean this as some insightf",
+  "verdict": "no stated pay"
+ },
+ "https://github.com/SecureBananaLabs/bug-bounty/issues/2782": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "CORS configured without origin allowlist in app.js (reissue via #743)",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://github.com/FuRongJun-1999/dsh-bounty/issues/67": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "[悬赏] 横向测评：各家角色扮演 / 记忆系统 / 智能体工作流方案（≥3 家 · 可复跑）",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://github.com/Nexussyn/ai-growth-engine/issues/3": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 10.0,
+  "title": "[AGENT-TASK] Auto-upsell trigger after 5th free call — +25% revenue",
+  "score": 47,
+  "verdict": "pass"
+ },
+ "https://github.com/mscrnt/lockpick/issues/32": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "[B111] Pick up each key item (keys, crests, MO disk, emblems...)",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://github.com/mscrnt/lockpick/issues/31": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "[B110] Combine items",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://github.com/ditto-assistant/ditto-subnet/issues/2872": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Miner CLI: sign the contributor licence agreement (CLA) with the miner hotkey",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://github.com/tenstorrent/tt-metal/issues/59732": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 3000.0,
+  "title": "[Bounty $3,000] Fix ttnn.sampling distribution bias from low-precision random threshold",
+  "score": null,
+  "verdict": "rejected: blocklisted - already assigned + requires Tenstorrent hardware"
+ },
+ "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 50.0,
+  "title": "[BOUNTY $50] SKILL: Generate a structured CHANGELOG from git history",
+  "score": 54,
+  "verdict": "pass"
+ },
+ "https://github.com/tenstorrent/tt-metal/issues/49307": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 2500.0,
+  "title": "[Bounty $2500] Command-R bringup using TTNN APIs",
+  "score": null,
+  "verdict": "rejected: blocklisted - requires physical Tenstorrent hardware (Wormhole T3K)"
+ },
+ "https://github.com/causify-ai/helpers/issues/673": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Linter check for the GitHub Action Workflows",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://github.com/FuRongJun-1999/dsh-bounty/issues/71": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "[悬赏] 灵枢生态宣传：材料 + 渠道 + 触达读数（可核验，不写「效果好」）",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://github.com/aLexzzz430/Cognitive-OS/issues/5": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 3000.0,
+  "title": "[ Bounty $3k ] [ Research ] Collect and compare AI-generated AGI architecture proposals",
+  "score": null,
+  "verdict": "rejected: prompt-harvesting"
+ },
+ "https://github.com/illbnm/homelab-stack/issues/6": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 220.0,
+  "title": "[BOUNTY $220] AI Stack — Ollama + Open WebUI + Stable Diffusion",
+  "score": 42,
+  "verdict": "pass"
+ },
+ "https://github.com/RetroShare/RetroShare/issues/1424": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Home V2 Display the latest Channel content",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://github.com/NSPG13/agent-bounties/issues/1632": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 21.3,
+  "title": "[Bounty] Bring a real backlog: get an established open-source project to fund its first Agent Bounties bounty",
+  "score": null,
+  "verdict": "rejected: stake/bond/entry-fee"
+ },
+ "https://github.com/tadanobutubutu/screeps/issues/5": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Dependency Dashboard",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://github.com/shanalikhan/code-settings-sync/issues/413": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 200.0,
+  "title": "Suggestion: Allow upload to repository",
+  "score": null,
+  "verdict": "rejected: blocklisted - dead payment rail (IssueHunt)"
+ },
+ "https://github.com/Vikingr2023/awesome-agent-bounties/issues/296": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 50.0,
+  "title": "[claude-builders-bounty/claude-builders-bounty] [BOUNTY $50] SKILL: Generate a structured CHANGELOG from git",
+  "score": null,
+  "verdict": "rejected: blocklisted - mirror/aggregator re-post - not the payer"
+ },
+ "https://github.com/relayhop/sn-monetization-runtime/issues/1287": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "[radar] SN open bounty 2026-10-13T07:38",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://github.com/SolFoundry/solfoundry/issues/845": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-032349",
+  "pay": null,
+  "title": "🏭 Bounty T2: Build Claude Agent for Auto-Submitting to T1 Bounties",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://github.com/auscaster/frantic-board/issues/431": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Frantic bounty #134: Run an Ausca Browser Session end to end and report the process",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://github.com/PG-AGI/toingg-jarvis/issues/13": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "[Feature]:  Cross-platform packaging and native installers for Windows, Linux, and macOS",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://github.com/flydelabs/flyde/issues/112": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Broken imports after moving files",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://github.com/tine1117/oss-hunter-livefire/issues/1": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 50.0,
+  "title": "parse_duration drops the days (d) unit",
+  "score": null,
+  "verdict": "rejected: blocklisted - synthetic sandbox fixture repo - no real bounty money"
+ },
+ "https://github.com/onyx-dot-app/onyx/issues/2281": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Jira Service Management Connector",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://github.com/UnsafeLabs/Bounty-Hunters/issues/842": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 75.0,
+  "title": "[ T3 Code ] Add update download progress, defer, and skip version to auto-updater",
+  "score": null,
+  "verdict": "rejected: blocklisted - prompt-harvesting acceptance criteria (.contributor.json initialized_with = full first message)"
+ },
+ "https://github.com/tscircuit/pcb-viewer/issues/163": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Remove `disableAutoFocus` in favor of `focusOnHover={false}`",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://github.com/arakoodev/EdgeChains/issues/273": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "BOUNTY: add support for qdrant vector database in javascript sdk",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://github.com/highlight/highlight/issues/8032": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "document sveltekit backend instrumentation",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://github.com/tryabby/abby/issues/68": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Vue Integration",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://github.com/speakers-in-tech/conference-data/issues/4": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Add ScalaDays to conference data tracker",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://github.com/speakers-in-tech/conference-data/issues/10": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Add CodeMash to the conference data tracker",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://github.com/getdozer/dozer/issues/1653": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "WASM UDF support",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://github.com/revertinc/revert/issues/551": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "[REVER-51] Workable Integration",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://github.com/TheSolaAI/sola-application/issues/157": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Make blinks interaction Handsfree",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://github.com/SecureBananaLabs/bug-bounty/issues/1": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-044510",
+  "pay": 350.0,
+  "title": "Implement Secure Payment Gateway and Payment Service",
+  "score": 54,
+  "verdict": "pass"
+ },
+ "https://github.com/getdozer/dozer/issues/1659": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Support for `IN` clause in streaming SQL",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://github.com/BAWES-Universe/workadventure-universe/issues/1": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "📱 Epic: BAWES Universe Mobile App (Android + iOS)",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://github.com/tscircuit/file-server/issues/5": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 10.0,
+  "title": "Create download endpoint `/files/download?...` as well as `/files/download/[[file_path]]`",
+  "score": null,
+  "verdict": "work type not a Muse fit"
+ },
+ "https://github.com/ClankerNation/OpenAgents/issues/59": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 7600.0,
+  "title": "[ Bounty $7k ] [ API ] Add agent reputation scoring system — high priority",
+  "score": null,
+  "verdict": "rejected: blocklisted - prompt-harvesting trap (demands the agent's full system prompt)"
+ },
+ "https://github.com/UnsafeLabs/Bounty-Hunters/issues/920": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 900.0,
+  "title": "[ Crypto ] Fix cross-chain replay attack in CrossChainBridge signature verification",
+  "score": null,
+  "verdict": "rejected: prompt-harvesting"
+ },
+ "https://github.com/outerbase/starbasedb/issues/71": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Improve test coverage with Vitest",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://github.com/highlight/highlight/issues/5082": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Support Elixir among our SDKs",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://github.com/javelin-anticheat/py-workedtask/issues/4": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "[Feature] Add Integrity Verification (Hash of Executable/Script)",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://github.com/ClankerNation/OpenAgents/issues/200": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 2200.0,
+  "title": "[ Bounty $2k ] [ API ] Fix ratelimit.py doesn't differentiate authenticated vs anonymous limits — backwards compat",
+  "score": null,
+  "verdict": "rejected: prompt-harvesting"
+ },
+ "https://github.com/lablab-ai/community-content/issues/462": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 60.0,
+  "title": "Crafting a Comprehensive Tutorial for Vectara Chat",
+  "score": null,
+  "verdict": "rejected: blocklisted - repo bans AI-generated content + bounty already won (PR #1082 merged)"
+ },
+ "https://news.ycombinator.com/item?id=45441841": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Rectangle | On-site Chicago, or US remote in SF and NY | Full-Time | Salary + Equity We're looking to hire a dedicated f",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45443292": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": 125.0,
+  "title": "Dialogue AI | Founding Software Engineer | Full-Time | Onsite (Los Angeles, CA) Dialogue AI is building the future of cu",
+  "score": null,
+  "verdict": "rejected: employment-not-a-task"
+ },
+ "https://news.ycombinator.com/item?id=45451313": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Silkline | Onsite, Chicago/Seattle (5 days/week) | Full-time | Salary+Equity We need help! and are looking to hire multi",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45455811": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Two Six Technologies |Senior Reverse Engineer/Vulnerability Researcher | Arlington, VA | ONSITE | Full Time | https://jo",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45488412": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Location: United States (Remote world)",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=45505726": {
+  "first_seen": "20261014-030524",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Swish ( https://www.swishbx.com/ ) | Founding Engineer | REMOTE (US, ideally near Detroit) | competitive salary + equity",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://github.com/weilixiong/TentOfTrials/issues/5": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": 25.0,
+  "title": "[$25 BOUNTY] [Python] Add independent log parser fixtures",
+  "score": null,
+  "verdict": "rejected: clinical/medical"
+ },
+ "https://github.com/jaredcaraway/schema-breeze-extension/issues/9": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Paid plan: one-time purchase that unlocks paid features",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/3": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": 440.0,
+  "title": "[PAID BOUNTY - $440] Messenger Group Chat Poll Creation & Voting UI",
+  "score": 54,
+  "verdict": "pass"
+ },
+ "https://github.com/auscaster/frantic-board/issues/330": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Frantic bounty #120: Add a valuable startup offer to Sourcey",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://gitlab.com/EA31337/EA31337-classes/-/work_items/20": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Fix CI tests",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://gitlab.com/FX31337/FX-BT-Scripts/-/work_items/86": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": 15.0,
+  "title": "Python: TestGenerator: unmatched data error (low value X at Y is not reached from the least timeframe, low price Z mismatches)",
+  "score": 48,
+  "verdict": "pass"
+ },
+ "https://gitlab.com/FreezingMoon/AncientBeast/-/work_items/315": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": 45.0,
+  "title": "online multiplayer [$45]",
+  "score": 51,
+  "verdict": "pass"
+ },
+ "https://gitlab.com/beestation/BeeStation-Hornet/-/work_items/1290": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": 110.0,
+  "title": "Finish Xenobiology Slime Crossbreeds [$110]",
+  "score": null,
+  "verdict": "rejected: dead-rail"
+ },
+ "https://gitlab.com/beestation/BeeStation-Hornet/-/work_items/795": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": 20.0,
+  "title": "[Bounty] fun Experimental Cloner expansion [$20]",
+  "score": null,
+  "verdict": "rejected: dead-rail"
+ },
+ "https://gitlab.com/sifcore/sifnode/-/work_items/524": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": 1000.0,
+  "title": "[sifnode] $1000 bounty for implementing Google Cloud support for sifnode #503",
+  "score": 54,
+  "verdict": "pass"
+ },
+ "https://gitlab.com/sifcore/sifnode/-/work_items/503": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": 1000.0,
+  "title": "[sifnode] $1000 bounty for implementing Azure AKS support for sifnode",
+  "score": 54,
+  "verdict": "pass"
+ },
+ "https://gitlab.com/sovereign-individuals/lnbits-for-woocommerce/-/work_items/3": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Activate support for translations",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://gitlab.com/sovereign-individuals/lnbits-for-woocommerce/-/work_items/9": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Tutorial video",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://gitlab.com/sovereign-individuals/lnbits-for-woocommerce/-/work_items/10": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Don't include \"Lightning Payment\" page in primary menu",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://gitlab.com/sovereign-individuals/lnbits-for-woocommerce/-/work_items/12": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Get rid off Google QR API dependency",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://gitlab.com/LemonAndroid/qanda/-/work_items/48": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": 50.0,
+  "title": "Use cached questions [$50]",
+  "score": null,
+  "verdict": "rejected: dead-rail"
+ },
+ "https://gitlab.com/LemonAndroid/qanda/-/work_items/20": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": 50.0,
+  "title": "Calculate word frequency percentiles on WordFrequency natural db table [$50 awarded]",
+  "score": null,
+  "verdict": "rejected: dead-rail"
+ },
+ "https://gitlab.com/LemonAndroid/natural-backend/-/work_items/33": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": 220.0,
+  "title": "Use only the actual user-created database for CRUD actions used by the frontend (LemonAndroid/natural-frontend) [$220]",
+  "score": null,
+  "verdict": "rejected: dead-rail"
+ },
+ "https://gitlab.com/brandondyer64/Viav/-/work_items/7": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Voice Channel Admin Commands",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://gitlab.com/LemonAndroid/natural-backend/-/work_items/31": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": 205.0,
+  "title": "Directly access serivce layer databases in resources now being synced, get rid of Sync job [$205 awarded]",
+  "score": null,
+  "verdict": "rejected: dead-rail"
+ },
+ "https://gitlab.com/brandondyer64/Viav/-/work_items/21": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Playlists",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://gitlab.com/brandondyer64/Viav/-/work_items/19": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "More Music Commands",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://gitlab.com/rishabhgarg25699/coala/-/work_items/933": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": 110.0,
+  "title": "Next generation bears (v2) [$110]",
+  "score": null,
+  "verdict": "rejected (scoring): already assigned to Makman2"
+ },
+ "https://gitlab.com/sanay/coala/-/work_items/933": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": 110.0,
+  "title": "Next generation bears (v2) [$110]",
+  "score": null,
+  "verdict": "rejected (scoring): already assigned to Makman2"
+ },
+ "https://gitlab.com/sjha2000/coala/-/work_items/933": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": 110.0,
+  "title": "Next generation bears (v2) [$110]",
+  "score": null,
+  "verdict": "rejected (scoring): already assigned to Makman2"
+ },
+ "https://gitlab.com/FX31337/FX-BT-Scripts/-/work_items/56": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": 100.0,
+  "title": "Complete dl_bt_metaquotes.py script. [$100]",
+  "score": null,
+  "verdict": "rejected (scoring): stale: no activity for 3591 days and no recent maintainer comment"
+ },
+ "https://gitlab.com/ubports/development/core/qtmir/-/work_items/19": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Mouse cursor coordinates are incorrect in landscape and inverted landscape",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://gitlab.com/ubports/development/core/lomiri-system-settings/-/work_items/406": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "background image: impossible via UI to reset the background image to system default",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://gitlab.com/lilypond/lilypond/-/work_items/833": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Enhancement: enclosing several notes in a box",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://gitlab.com/lilypond/lilypond/-/work_items/1128": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Text pedal mark not closed at music end",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://gitlab.com/lilypond/lilypond/-/work_items/3887": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Using non-default font size results in uneven note spacing",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://gitlab.com/lilypond/lilypond/-/work_items/3326": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": 100.0,
+  "title": "Metafont'ize Kievan glyphs",
+  "score": null,
+  "verdict": "rejected (scoring): stale: no activity for 1053 days and no recent maintainer comment"
+ },
+ "https://gitlab.com/lilypond/lilypond/-/work_items/3272": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Beam x extrema wrong in Kievan Ligature engraver",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://gitlab.com/lilypond/lilypond/-/work_items/3154": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "option to specify the name of Midi files for each \\score block",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://gitlab.com/lilypond/lilypond/-/work_items/2270": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Easier cross-staff chord notation wanted",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://gitlab.com/lilypond/lilypond/-/work_items/1362": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "automatic dynamics grouping when computing vertical alignment",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://gitlab.com/lilypond/lilypond/-/work_items/1276": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "MetronomeMark 'break-align-symbols should work with all objects",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://gitlab.com/lilypond/lilypond/-/work_items/994": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "automatically beam across rests",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://gitlab.com/lilypond/lilypond/-/work_items/865": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Ancient Music: Add tablature support",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://gitlab.com/lilypond/lilypond/-/work_items/559": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Feature request: support accordion with standard bass",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://gitlab.com/lilypond/lilypond/-/work_items/2411": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Slurs between different voices",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://gitlab.com/openstreetcraft/minecraft/-/work_items/11": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Bukkit weather plugin",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://gitlab.com/openstreetcraft/openstreetcraft.gitlab.io/-/work_items/3": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "User accounts",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://gitlab.com/openstreetcraft/minecraft/-/work_items/32": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Nukkit biome plugin",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://gitlab.com/openstreetcraft/minecraft/-/work_items/31": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Nukkit terrain plugin",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://gitlab.com/lilypond/lilypond/-/work_items/1196": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": 150.0,
+  "title": "Enhancement Request: Implementing a bend engraver",
+  "score": null,
+  "verdict": "rejected (scoring): already assigned to Thomas_Morley"
+ },
+ "https://gitlab.com/openstreetcraft/minecraft/-/work_items/33": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Forge terrain mod",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://gitlab.com/openstreetcraft/minecraft/-/work_items/34": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Forge biome mod",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://gitlab.com/yogstation/Yogstation/-/work_items/7585": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "New poltergeist gamemode",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://gitlab.com/lilypond/lilypond/-/work_items/665": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Request: MusicXML backend",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://gitlab.com/ThEvryCo/Products/vShelf/SingleCrane/-/work_items/2": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Complete Winch MVP",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://gitlab.com/ThEvryCo/Products/vShelf/SingleCrane/-/work_items/1": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Complete Trolley MVP Milestone",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://gitlab.com/lilypond/lilypond/-/work_items/1127": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Piano staff centred dynamics",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://gitlab.com/tinycampus/app/-/work_items/86": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Eigenes Profilbild einstellen",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://gitlab.com/tinycampus/app/-/work_items/320": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Fallback-Asset für Badges einrichten",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://gitlab.com/tinycampus/app/-/work_items/291": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Profile Flare Animations and Animation Settings",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://gitlab.com/tinycampus/server/-/work_items/117": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "New Badges 2020 October",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://gitlab.com/tinycampus/server/-/work_items/92": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Likes zwischen Timeline und Fragen verknüpfen",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://gitlab.com/tinycampus/app/-/work_items/177": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Follow-up from \"[PF_01] Badge progress\"",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://gitlab.com/tinycampus/server/-/work_items/64": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Badges auf Events umstellen",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://gitlab.com/satoshiinberlin/sats4berlin/-/work_items/12": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "⚠️ Kritische Änderung: Musikschule Kling-Klang (DE-BE-00007) – 2026-03-16",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://gitlab.com/baserow/baserow/-/work_items/674": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Add search to the Kanban view",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://gitlab.com/baserow/baserow/-/work_items/1635": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Sorting for calendar view within each day",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://gitlab.com/baserow/baserow/-/work_items/2699": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Allow locking databases and tables so they can't be deleted by non-admins",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=49922910": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "OpenSanctions | Product Engineer | Berlin, Germany / REMOTE (CET ±3 preferred) | Freelance / employment OpenSanctions is",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=49922970": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Arrangr | Growth Lead, Expansion & Lifecycle | REMOTE | Fixed-fee project ($12K, milestone-based) + equity tied to ARR r",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=49923163": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "JustPark | Senior Software Engineer, Reporting | Hybrid: Dallas, TX | Full-Time/Perm | Competitive salary + Benefits. Ap",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=49928088": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Software is over. But for real. I just one-shotted Photoshop. The whole thing. My construction contractor neighbor creat",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=49925116": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Cisco ThousandEyes | San Francisco, CA and San Jose, CA | Full-time | HYBRID ONSITE (2 days/week) |  https://www.thousan",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=49926050": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Audio/Video Collaboration company, worldwide | GMT-2 &lt;--> GMT+2 | Remote | Full time or part time or contract We have",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=49926232": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Toolhouse AI | Head of AI Sales / AI Go To Market | SF, ATX, or REMOTE (US) | Full-time | $180k–$250k OTE + Equity |  ht",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=49927917": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Workday | AI Creative Technologist | Pleasanton, CA | ONSITE | Contract Workday's in-house creative team already uses AI",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=49930656": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Vistulo | Senior Java, C#, React & Calypso engineers, Calypso BA/PO | REMOTE (Poland or Romania) | B2B contract, pay ran",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=49980451": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Hi! Is Ukraine possible for this role as a contractor? Full overlap with your team. Happy to send a CV if so.",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=49931362": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "EggAI | IT Operations Lead, Software and Platform engineers | REMOTE (EU) | Full-time preferred. Contract possible.",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=49931746": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": 34.0,
+  "title": "Search Atlas | Product Engineer (Product Manager role, not a Full-stack role) | REMOTE (anywhere, EST hours) | Full-time",
+  "score": 48,
+  "verdict": "pass"
+ },
+ "https://news.ycombinator.com/item?id=49932275": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Sundream Studio | Multiple Roles | Full-time / Contract | NYC / Remote     Sundream Studio is an AI filmmaking app that ",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=49934114": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": 10000.0,
+  "title": "Founding Engineer (Security / AI / Distributed Systems) — Stealth Project",
+  "score": null,
+  "verdict": "rejected: employment-not-a-task"
+ },
+ "https://news.ycombinator.com/item?id=49934530": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": 14.0,
+  "title": "Rebar | Software Engineers (Product, Applied AI, ML Infra, Data Platform) | ONSITE 5 days/week, New York City (union squ",
+  "score": 45,
+  "verdict": "pass"
+ },
+ "https://news.ycombinator.com/item?id=49939260": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": 5000.0,
+  "title": "Privy.pro | Growth Marketing Engineer (AI-First) | REMOTE (Americas: US or LatAm) | Part-time contract, path to full-tim",
+  "score": 54,
+  "verdict": "pass"
+ },
+ "https://news.ycombinator.com/item?id=49940125": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": 50.0,
+  "title": "Role: UX/UI Designer (BAY AREA, CA - HYBRID) 1099 CONTRACT",
+  "score": 51,
+  "verdict": "pass"
+ },
+ "https://news.ycombinator.com/item?id=49961408": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Opaxa | Founding Engineer, Forward Deployed (full-stack) | San Francisco Bay Area preferred, REMOTE (US) considered | Fu",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=49961551": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "AssumeAI | AI Engineer (£30/hr) and Senior AI Engineer (£50/hr) | Contract | REMOTE (UK) |  https://assume-ai.com  We ar",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=49962075": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Revieve Oy | Senior Product Engineer | REMOTE [Europe / (GMT+2)] | Contract, full-time | Revieve (Helsinki, with a US of",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=49964196": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": 70.0,
+  "title": "Senior Python Backend Engineer | REMOTE (EMEA/APAC) We're looking for Python backend engineers to work on a trustless su",
+  "score": 47,
+  "verdict": "pass"
+ },
+ "https://news.ycombinator.com/item?id=49966852": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "MaFi Games | Senior SWE/Game dev | Contract preferred | Remote | C# Hi, I’m the co-founder of MaFi Games, an indie studi",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=49971729": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Early-stage Startup | Software Engineer & Data Analyst | Full-Time | REMOTE (US & Canada) | $150,000 - $180,000 USD We’r",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=49975827": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Pairio ( https://pairio.app ) | Senior Swift Engineer | REMOTE (Europe) | 32-40h/week | Employee or freelance | $65k-$85",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=49976350": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Comograph | Go-To-Market (GTM) Specialist | Remote (Global / US/EU/Africa time zones welcome) | Full-time / Contract - E",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=49979600": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Quantum Minds | Senior Software Engineer – LLVM/Fuzzing/Program Analysis | Contract | REMOTE (US) | Full-Time Quantum Mi",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=50066343": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Sendery ( https://sendery.co ) | iOS Engineer | Tokyo, Japan (no visa support, remote available) | Contract Sendery is a",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://news.ycombinator.com/item?id=50068986": {
+  "first_seen": "20261014-032116",
+  "last_seen": "20261014-051749",
+  "pay": null,
+  "title": "Irash Tech | Business Development Manager (Freelance, Commission-only) | REMOTE (Worldwide) | Contract Irash Tech is a s",
+  "score": null,
+  "verdict": "no stated pay"
+ },
+ "https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/30": {
+  "first_seen": "20261014-044510",
+  "last_seen": "20261014-044510",
+  "pay": 25.0,
+  "title": "[BOUNTY] Lewd and custom mobs $25+",
+  "score": null,
+  "verdict": "work type not a Muse fit"
+ },
+ "https://github.com/microg/GmsCore/issues/2843": {
+  "first_seen": "20261014-044510",
+  "last_seen": "20261014-051749",
+  "pay": 2340.0,
+  "title": "[BOUNTY] WearOS Support [$2340]",
+  "score": 73,
+  "verdict": "pass"
+ },
+ "https://github.com/SecureBananaLabs/bug-bounty/issues/743": {
+  "first_seen": "20261014-051749",
+  "last_seen": "20261014-051749",
+  "pay": 700.0,
+  "title": "Low Handing Fruit Automation",
+  "score": 54,
+  "verdict": "pass"
+ }
+}
