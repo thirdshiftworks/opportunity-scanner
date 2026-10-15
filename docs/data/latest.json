@@ -1,26 +1,26 @@
 {
  "scanner": "v2 (github-actions)",
- "scanned_at_utc": "2026-10-14T07:42:05Z",
- "stamp": "20261014-074031",
+ "scanned_at_utc": "2026-10-15T07:43:03Z",
+ "stamp": "20261015-074139",
  "counts": {
-  "raw_total": 178,
+  "raw_total": 172,
   "passed": 17,
-  "credible": 2,
-  "plausible": 15,
-  "new": 2,
-  "new_credible": 1,
+  "credible": 0,
+  "plausible": 17,
+  "new": 4,
+  "new_credible": 0,
   "opportunities_listed": 17
  },
  "sources": {
   "Opire": {
-   "raw": 5,
+   "raw": 4,
    "passed": 0,
    "credible": 0
   },
   "GitHub (bounty labels)": {
    "raw": 60,
-   "passed": 8,
-   "credible": 2
+   "passed": 11,
+   "credible": 0
   },
   "GitLab (bounty labels)": {
    "raw": 60,
@@ -28,7 +28,7 @@
    "credible": 0
   },
   "Superteam Earn": {
-   "raw": 18,
+   "raw": 13,
    "passed": 0,
    "credible": 0
   },
@@ -53,17 +53,5 @@
    "credible": 0
   }
  },
- "new_credible": [
-  {
-   "title": "[BOUNTY $100] HOOK: Pre-tool-use hook that blocks destructive bash commands",
-   "platform": "GitHub (bounty labels)",
-   "amount": 100.0,
-   "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3",
-   "score": 57,
-   "tier": "credible",
-   "is_new": true,
-   "note": "very busy thread: 1841 comments (claim split unknown)",
-   "effort": "1-3 hrs"
-  }
- ]
+ "new_credible": []
 }
