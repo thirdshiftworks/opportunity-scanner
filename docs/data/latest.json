@@ -1,14 +1,14 @@
 {
  "scanner": "v2 (github-actions)",
- "scanned_at_utc": "2026-10-16T07:39:57Z",
- "stamp": "20261016-073836",
+ "scanned_at_utc": "2026-10-17T07:34:11Z",
+ "stamp": "20261017-073242",
  "counts": {
   "raw_total": 171,
   "passed": 21,
-  "credible": 3,
-  "plausible": 18,
-  "new": 8,
-  "new_credible": 3,
+  "credible": 1,
+  "plausible": 20,
+  "new": 4,
+  "new_credible": 0,
   "opportunities_listed": 21
  },
  "sources": {
@@ -19,8 +19,8 @@
   },
   "GitHub (bounty labels)": {
    "raw": 60,
-   "passed": 13,
-   "credible": 3
+   "passed": 12,
+   "credible": 1
   },
   "GitLab (bounty labels)": {
    "raw": 60,
@@ -53,39 +53,5 @@
    "credible": 0
   }
  },
- "new_credible": [
-  {
-   "title": "[$750] WebGL renderer for the 3D memory graph: 50,000 nodes at interactive frame rates",
-   "platform": "GitHub (bounty labels)",
-   "amount": 750.0,
-   "url": "https://github.com/oll4com/spaceapp/issues/62",
-   "score": 70,
-   "tier": "credible",
-   "is_new": true,
-   "note": "rail stated in issue only - re-verify before any work",
-   "effort": "6-15 hrs"
-  },
-  {
-   "title": "[$400] Per-service container images: ship each image only the code and dependencies it runs",
-   "platform": "GitHub (bounty labels)",
-   "amount": 400.0,
-   "url": "https://github.com/oll4com/spaceapp/issues/64",
-   "score": 68,
-   "tier": "credible",
-   "is_new": true,
-   "note": "open PR already targets this: [72, 73]",
-   "effort": "1-3 hrs"
-  },
-  {
-   "title": "Bounty $50: recipe for Ryzen AI 890M (Radeon 890M iGPU)",
-   "platform": "GitHub (bounty labels)",
-   "amount": 50.0,
-   "url": "https://github.com/sybil-solutions/local-ai-registry/issues/223",
-   "score": 57,
-   "tier": "credible",
-   "is_new": true,
-   "note": "rail stated in issue only - re-verify before any work",
-   "effort": "2-6 hrs"
-  }
- ]
+ "new_credible": []
 }
