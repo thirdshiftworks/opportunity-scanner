@@ -1,15 +1,15 @@
 {
  "scanner": "v2 (github-actions)",
- "scanned_at_utc": "2026-10-17T07:34:11Z",
- "stamp": "20261017-073242",
+ "scanned_at_utc": "2026-10-18T07:33:14Z",
+ "stamp": "20261018-073155",
  "counts": {
   "raw_total": 171,
-  "passed": 21,
-  "credible": 1,
-  "plausible": 20,
-  "new": 4,
+  "passed": 17,
+  "credible": 0,
+  "plausible": 17,
+  "new": 1,
   "new_credible": 0,
-  "opportunities_listed": 21
+  "opportunities_listed": 17
  },
  "sources": {
   "Opire": {
@@ -19,8 +19,8 @@
   },
   "GitHub (bounty labels)": {
    "raw": 60,
-   "passed": 12,
-   "credible": 1
+   "passed": 11,
+   "credible": 0
   },
   "GitLab (bounty labels)": {
    "raw": 60,

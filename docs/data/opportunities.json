@@ -1,15 +1,5 @@
 [
  {
-  "title": "[BOUNTY $100] HOOK: Pre-tool-use hook that blocks destructive bash commands",
-  "platform": "GitHub (bounty labels)",
-  "amount": 100.0,
-  "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3",
-  "score": 57,
-  "tier": "credible",
-  "is_new": false,
-  "note": "very busy thread: 1858 comments (claim split unknown)"
- },
- {
   "title": "Privy.pro | Growth Marketing Engineer (AI-First) | REMOTE (Americas: US or LatAm) | Part-time contract, path to full-tim",
   "platform": "Hacker News (Who is hiring - contract only)",
   "amount": 5000.0,
@@ -46,38 +36,18 @@
   "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/80",
   "score": 54,
   "tier": "plausible",
-  "is_new": true,
+  "is_new": false,
   "note": "open PR already targets this: [85, 92, 93, 105, 107, 108, 111, 120, 122, 131, 136, 138, 146, 149, 150, 152, 167, 168]"
  },
  {
-  "title": "[PAID BOUNTY - $750] Email Threads API",
-  "platform": "GitHub (bounty labels)",
-  "amount": 750.0,
-  "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/4",
-  "score": 54,
-  "tier": "plausible",
-  "is_new": false,
-  "note": "open PR already targets this: [16, 20, 44, 61]"
- },
- {
-  "title": "[$600] Export worker and workflow spans over OTLP: one trace from API request to every Temporal activity",
+  "title": "[Bounty] [$600] Add Thursday's Boots",
   "platform": "GitHub (bounty labels)",
   "amount": 600.0,
-  "url": "https://github.com/oll4com/spaceapp/issues/61",
+  "url": "https://github.com/theselfish/SlopStation13/issues/5",
   "score": 54,
   "tier": "plausible",
   "is_new": true,
-  "note": "open PR already targets this: [70, 71, 82, 91, 98, 104, 112, 115, 127, 129, 137, 138, 145]"
- },
- {
-  "title": "Rust Component Definition Support $500",
-  "platform": "GitHub (bounty labels)",
-  "amount": 500.0,
-  "url": "https://github.com/Spectral-Finance/lux/issues/103",
-  "score": 54,
-  "tier": "plausible",
-  "is_new": false,
-  "note": "open PR already targets this: [433, 559, 640, 642, 670, 686, 774, 909, 934, 930, 940, 957, 1022]"
+  "note": "open PR already targets this: [34, 38, 39]"
  },
  {
   "title": "[$450] One command to run the full SpaceApp stack from source for contributors",
@@ -86,8 +56,8 @@
   "url": "https://github.com/oll4com/spaceapp/issues/65",
   "score": 54,
   "tier": "plausible",
-  "is_new": true,
-  "note": "open PR already targets this: [69, 76, 78, 80, 84, 94, 100, 108, 126, 130, 136, 142]"
+  "is_new": false,
+  "note": "open PR already targets this: [69, 76, 78, 80, 84, 94, 100, 108, 126, 130, 136, 142, 146, 153, 154, 156, 159, 167, 170, 180, 181, 1]"
  },
  {
   "title": "[PAID BOUNTY - $440] Messenger Group Chat Poll Creation & Voting UI",
@@ -100,6 +70,26 @@
   "note": "open PR already targets this: [12, 21, 8, 29, 47, 49, 62, 79, 89, 102, 113, 128]"
  },
  {
+  "title": "[$400] Per-service container images: ship each image only the code and dependencies it runs",
+  "platform": "GitHub (bounty labels)",
+  "amount": 400.0,
+  "url": "https://github.com/oll4com/spaceapp/issues/64",
+  "score": 54,
+  "tier": "plausible",
+  "is_new": false,
+  "note": "open PR already targets this: [72, 73, 75, 83, 86, 118, 120, 121, 123, 124, 132, 143, 148, 165, 175]"
+ },
+ {
+  "title": "Implement Secure Payment Gateway and Payment Service",
+  "platform": "GitHub (bounty labels)",
+  "amount": 350.0,
+  "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1",
+  "score": 54,
+  "tier": "plausible",
+  "is_new": false,
+  "note": "open PR already targets this: [3, 4, 5, 6, 8, 9, 10, 11, 12, 15, 16, 17, 19, 20, 22, 26, 52, 56, 65, 69]"
+ },
+ {
   "title": "[BOUNTY $200] WORKFLOW: n8n + Claude Code — automated weekly dev summary",
   "platform": "GitHub (bounty labels)",
   "amount": 200.0,
@@ -110,14 +100,14 @@
   "note": "open PR already targets this: [33, 38, 55, 78, 91, 130, 151, 171, 178, 185]"
  },
  {
-  "title": "Rust Testing Framework Integration $350",
+  "title": "[BOUNTY $150] AGENT: Claude Code sub-agent that reviews a PR and posts a structured comment",
   "platform": "GitHub (bounty labels)",
-  "amount": 350.0,
-  "url": "https://github.com/Spectral-Finance/lux/issues/102",
-  "score": 53,
+  "amount": 150.0,
+  "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4",
+  "score": 54,
   "tier": "plausible",
   "is_new": false,
-  "note": "open PR already targets this: [357, 432, 433, 569, 641, 643, 669, 687, 775, 919, 934, 930, 939, 1021]"
+  "note": "open PR already targets this: [10, 32, 54, 59, 70, 89, 114, 121, 122, 123, 139, 147, 152]"
  },
  {
   "title": "Role: UX/UI Designer (BAY AREA, CA - HYBRID) 1099 CONTRACT",
@@ -138,16 +128,6 @@
   "tier": "plausible",
   "is_new": false,
   "note": "no escrow on GitLab - rail must be confirmed in-issue before any work"
- },
- {
-  "title": "Help us translate Hugin Messenger!",
-  "platform": "GitHub (bounty labels)",
-  "amount": 20.0,
-  "url": "https://github.com/kryptokrona/hugin-native/issues/13",
-  "score": 51,
-  "tier": "plausible",
-  "is_new": true,
-  "note": "rail stated in issue only - re-verify before any work"
  },
  {
   "title": "Search Atlas | Product Engineer (Product Manager role, not a Full-stack role) | REMOTE (anywhere, EST hours) | Full-time",
@@ -180,16 +160,6 @@
   "note": "no activity data available"
  },
  {
-  "title": "[BOUNTY ~$30 x4] Post and fund a real task on Verdikta, publish a write-up (paid on Poidh, Base)",
-  "platform": "GitHub (bounty labels)",
-  "amount": 30.0,
-  "url": "https://github.com/verdikta/verdikta-applications/issues/76",
-  "score": 47,
-  "tier": "plausible",
-  "is_new": false,
-  "note": "rail stated in issue only - re-verify before any work"
- },
- {
   "title": "Rebar | Software Engineers (Product, Applied AI, ML Infra, Data Platform) | ONSITE 5 days/week, New York City (union squ",
   "platform": "Hacker News (Who is hiring - contract only)",
   "amount": 14.0,
@@ -198,15 +168,5 @@
   "tier": "plausible",
   "is_new": false,
   "note": "no activity data available"
- },
- {
-  "title": "Frantic bounty #97: Your first bounty is on the house ($10 back when it clears, first five)",
-  "platform": "GitHub (bounty labels)",
-  "amount": 10.0,
-  "url": "https://github.com/auscaster/frantic-board/issues/277",
-  "score": 40,
-  "tier": "plausible",
-  "is_new": false,
-  "note": "very busy thread: 139 comments (claim split unknown)"
  }
 ]
