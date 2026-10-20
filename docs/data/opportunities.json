@@ -7,7 +7,7 @@
   "score": 57,
   "tier": "credible",
   "is_new": false,
-  "note": "very busy thread: 1866 comments (claim split unknown)"
+  "note": "very busy thread: 1872 comments (claim split unknown)"
  },
  {
   "title": "[$50] Don't delete connected calendars, just flag as deleted",
@@ -16,7 +16,17 @@
   "url": "https://github.com/topcoder-archive/taas-apis/issues/592",
   "score": 57,
   "tier": "credible",
-  "is_new": true,
+  "is_new": false,
+  "note": "rail stated in issue only - re-verify before any work"
+ },
+ {
+  "title": "Bounty $50: recipe for Ryzen AI 890M (Radeon 890M iGPU)",
+  "platform": "GitHub (bounty labels)",
+  "amount": 50.0,
+  "url": "https://github.com/sybil-solutions/local-ai-registry/issues/223",
+  "score": 57,
+  "tier": "credible",
+  "is_new": false,
   "note": "rail stated in issue only - re-verify before any work"
  },
  {
@@ -80,14 +90,14 @@
   "note": "open PR already targets this: [32, 34, 38, 43, 41, 37, 33, 31, 27, 26, 44, 49, 51, 54, 57, 59, 81, 119, 127]"
  },
  {
-  "title": "[$450] One command to run the full SpaceApp stack from source for contributors",
+  "title": "[$600] Export worker and workflow spans over OTLP: one trace from API request to every Temporal activity",
   "platform": "GitHub (bounty labels)",
-  "amount": 450.0,
-  "url": "https://github.com/oll4com/spaceapp/issues/65",
+  "amount": 600.0,
+  "url": "https://github.com/oll4com/spaceapp/issues/61",
   "score": 54,
   "tier": "plausible",
   "is_new": false,
-  "note": "open PR already targets this: [69, 76, 78, 80, 84, 94, 108, 126, 130, 136, 142, 146, 153, 154, 156, 159, 167, 170, 180, 181, 1, 186, 199]"
+  "note": "open PR already targets this: [70, 71, 82, 91, 104, 112, 115, 127, 129, 137, 138, 145, 147, 151, 162, 163, 177, 185, 192]"
  },
  {
   "title": "[PAID BOUNTY - $440] Messenger Group Chat Poll Creation & Voting UI",
@@ -110,20 +120,30 @@
   "note": "open PR already targets this: [72, 73, 83, 86, 118, 120, 121, 123, 124, 132, 143, 148, 165, 175, 187, 190, 200, 205, 206]"
  },
  {
-  "title": "[BOUNTY $75] TEMPLATE: CLAUDE.md for a Next.js + SQLite SaaS project",
+  "title": "[BOUNTY $200] WORKFLOW: n8n + Claude Code — automated weekly dev summary",
   "platform": "GitHub (bounty labels)",
-  "amount": 75.0,
-  "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2",
+  "amount": 200.0,
+  "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5",
   "score": 54,
   "tier": "plausible",
   "is_new": false,
-  "note": "very busy thread: 1591 comments (claim split unknown)"
+  "note": "open PR already targets this: [33, 38, 55, 78, 91, 130, 151, 171, 178, 185]"
  },
  {
   "title": "[$50] Add authentication for a new Nylas Page webhook.",
   "platform": "GitHub (bounty labels)",
   "amount": 50.0,
   "url": "https://github.com/topcoder-archive/taas-apis/issues/623",
+  "score": 53,
+  "tier": "plausible",
+  "is_new": false,
+  "note": "rail stated in issue only - re-verify before any work"
+ },
+ {
+  "title": "Bounty $50: recipe for RX 7900 XTX 24 GB",
+  "platform": "GitHub (bounty labels)",
+  "amount": 50.0,
+  "url": "https://github.com/sybil-solutions/local-ai-registry/issues/219",
   "score": 53,
   "tier": "plausible",
   "is_new": true,

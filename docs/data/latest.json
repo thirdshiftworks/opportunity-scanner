@@ -1,15 +1,15 @@
 {
  "scanner": "v2 (github-actions)",
- "scanned_at_utc": "2026-10-19T07:50:27Z",
- "stamp": "20261019-074900",
+ "scanned_at_utc": "2026-10-20T07:42:55Z",
+ "stamp": "20261020-074124",
  "counts": {
   "raw_total": 171,
-  "passed": 19,
-  "credible": 2,
-  "plausible": 17,
-  "new": 2,
-  "new_credible": 1,
-  "opportunities_listed": 19
+  "passed": 21,
+  "credible": 3,
+  "plausible": 18,
+  "new": 1,
+  "new_credible": 0,
+  "opportunities_listed": 21
  },
  "sources": {
   "Opire": {
@@ -19,8 +19,8 @@
   },
   "GitHub (bounty labels)": {
    "raw": 60,
-   "passed": 11,
-   "credible": 2
+   "passed": 12,
+   "credible": 3
   },
   "GitLab (bounty labels)": {
    "raw": 60,
@@ -53,17 +53,5 @@
    "credible": 0
   }
  },
- "new_credible": [
-  {
-   "title": "[$50] Don't delete connected calendars, just flag as deleted",
-   "platform": "GitHub (bounty labels)",
-   "amount": 50.0,
-   "url": "https://github.com/topcoder-archive/taas-apis/issues/592",
-   "score": 57,
-   "tier": "credible",
-   "is_new": true,
-   "note": "rail stated in issue only - re-verify before any work",
-   "effort": "6-15 hrs"
-  }
- ]
+ "new_credible": []
 }
