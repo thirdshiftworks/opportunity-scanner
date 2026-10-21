@@ -10,5 +10,6 @@
  "https://github.com/lablab-ai/community-content/issues/462": "repo bans AI-generated content + bounty already won (PR #1082 merged)",
  "https://github.com/tine1117/oss-hunter-livefire/issues/1": "synthetic sandbox fixture repo - no real bounty money",
  "https://github.com/Vikingr2023/awesome-agent-bounties/issues/296": "mirror/aggregator re-post - not the payer",
- "https://github.com/UnsafeLabs/Bounty-Hunters/issues/842": "prompt-harvesting acceptance criteria (.contributor.json initialized_with = full first message)"
+ "https://github.com/UnsafeLabs/Bounty-Hunters/issues/842": "prompt-harvesting acceptance criteria (.contributor.json initialized_with = full first message)",
+  "https://github.com/ClankerNation/OpenAgents/issues/184": "audit-killed 2026-10-21: repo policy says the bounties are symbolic (CONTRIBUTING.md: research study, PRs never merged, 'not the right repo') + prompt-harvesting acceptance criteria (demands a verbatim copy of the agent's instructions/guidelines and environment) + graveyard (10 linked PRs closed unmerged, 0 merged; a bot closes every PR every 12h) + duplicate of issue #192"
 }
