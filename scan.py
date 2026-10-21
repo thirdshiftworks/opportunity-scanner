@@ -22,6 +22,13 @@ scrape more and verify opportunities better"):
     x skill fit), hard-reject patterns for prompt-harvesting / hardware gates /
     already-solved / stale listings, and a seen-database (seen.json at the repo root) so
     nightly runs only surface genuinely NEW items.
+  * REPO-RULES CHECK - the repo's own contribution policy (CONTRIBUTING.md /
+    AGENTS.md) is read once per repo. A policy that calls the bounties
+    symbolic (research study, PRs never merged, "not the right repo") means
+    there is no money behind the listing, so it is killed before scoring.
+  * GRAVEYARD CAP - a listing with many solution PRs closed unmerged and none
+    merged is not credible: nobody has won it, so it is tier-capped out of
+    the credible band (same cap as contested work).
 
 Sources probed and verified NOT usable without login/JS (Oct 13-14, 2026 -
 re-probed lightly each run, status recorded in run stats):
@@ -41,7 +48,10 @@ Hard filters (an item must pass ALL, same spirit as v1 plus v2 additions):
     botted engagement, credential stuffing).
   - NO security-audit / bug-bounty submissions (parked lane).
   - NO off-platform contact funnels (Telegram/WhatsApp "to apply").
-  - NO prompt-harvesting (listings demanding an agent's system prompt etc.).
+  - NO prompt-harvesting (listings demanding an agent's system prompt, its
+    verbatim instructions/guidelines, or its environment fingerprint).
+  - NO repos whose own contribution policy calls the bounties symbolic
+    (research study, PRs never merged) - there is no money behind those.
   - NO physical-hardware requirements (specific GPU cards, Tenstorrent...).
   - NO already-assigned issues, NO issues with a merged solution PR.
   - NO dead payment rails (IssueHunt / Bountysource as the stated rail).
@@ -77,6 +87,9 @@ DOCS_DATA = REPO_ROOT / "docs" / "data"
 UA = {"User-Agent": "thirdshiftworks-opportunity-scanner/2.0 (read-only research; github actions)"}
 TIMEOUT = 25
 NOW = datetime.now(timezone.utc)
+# Graveyard threshold: this many linked PRs closed unmerged (and none merged)
+# means the work is rejected over and over and nobody has won it yet.
+GRAVEYARD_CLOSED_PRS = 5
 
 # ---------------------------------------------------------------- fetch helpers
 
@@ -170,7 +183,20 @@ REJECT_PATTERNS = {
     "digest/list-not-a-task": r"\b(open bounties right now|bounty (digest|roundup|list)|daily bounty|list of bounties|bounties available today)\b",
     "employment-not-a-task": r"\b(full[- ]time (role|position|job)|founding engineer|equity \+|base salary|salary range|\$\s?[0-9]{2,3}\s?k\s?[-–+])\b",
     # v2 additions ------------------------------------------------------------
-    "prompt-harvesting": r"(system prompt|paste (your|the) (entire |full )?(system )?prompt|your (initial|platform) (prompt|initialization)|initialization text (present|from) (at|the)|full (platform )?initialization|reveal (your|the) (system )?prompt|copy (your|the) (entire )?system (prompt|instructions)|initialized_with|paste (the )?(complete|full|entire) text of the first message|first message in your conversation|full unedited text of (your|the) (first|initial) message)",
+    # The prompt-harvesting pattern also covers the "reproducibility" variant:
+    # a listing that demands a verbatim copy of the agent's instructions /
+    # guidelines / context, or its environment fingerprint (OS, CPU
+    # architecture, home path, shell), is harvesting just as much as one that
+    # asks for the system prompt outright.
+    "prompt-harvesting": (
+        r"(system prompt|paste (your|the) (entire |full )?(system )?prompt|your (initial|platform) (prompt|initialization)|initialization text (present|from) (at|the)|full (platform )?initialization|reveal (your|the) (system )?prompt|copy (your|the) (entire )?system (prompt|instructions)|initialized_with|paste (the )?(complete|full|entire) text of the first message|first message in your conversation|full unedited text of (your|the) (first|initial) message)"
+        r"|(verbatim|exact|literal|full) (copy|transcript|transcription|reproduction) of (all |any |the |your )*(your |the )*(instructions?|guidelines?|system prompt|context)"
+        r"|(instructions?|guidelines?) (and|or) (the )?(guidelines?|instructions?) (that |which )?(were |was )?present in your context"
+        r"|present in your context"
+        r"|your environment details"
+        r"|environment details (including|such as)"
+        r"|cpu architecture"
+    ),
     "hardware-required": r"\b(tenstorrent|wormhole|grayskull|blackhole|t3k\b|tt-metal|physical (gpu|card|hardware|device) (is )?required|run (the )?(test|benchmark|it) on (the |a )?physical|requires? (a |an )?(rtx|gtx) \d{4}|on (an? )?(rtx|gtx) \d{4} (ti )?(\d+\s?gb )?card|(rtx|gtx) \d{4}\s?(ti\s?)?\d+\s?gb)\b",
     "dead-rail": r"\b(issuehunt|bountysource)\b",
 }
@@ -179,6 +205,49 @@ SPAM_REPO_PATTERNS = re.compile(
     r"(bounty[-_]?(plaza|board|hub|digest|list|feed|only)|bounties[-_]?(daily|list|feed))",
     re.IGNORECASE,
 )
+
+# ---------------------------------------------------------------- repo rules
+# A repo can say in its own contribution policy that its bounties are
+# symbolic: a research study, PRs reviewed but never merged, "not the right
+# repo" for paid work. There is no money behind those listings, so the
+# listing is killed before it is ever scored. Read once per repo, cached.
+POLICY_FILES = ("CONTRIBUTING.md", ".github/CONTRIBUTING.md", "AGENTS.md")
+SYMBOLIC_BOUNTY_RE = re.compile(
+    r"bount\w+[^.]{0,100}symbolic"
+    r"|symbolic bount\w+"
+    r"|academic study"
+    r"|will not be merged into production"
+    r"|not the right repo"
+    r"|no real (money|payment|reward)",
+    re.IGNORECASE,
+)
+_POLICY_CACHE = {}
+
+def fetch_text(url, timeout=20):
+    """Fetch a text file (raw GitHub content). Returns the text, or None."""
+    try:
+        req = urllib.request.Request(url, headers=UA)
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            return r.read().decode("utf-8", "replace")
+    except Exception:
+        return None
+
+def repo_policy_flag(repo):
+    """Read the repo's own contribution policy. Returns a short reason string
+    when it says the bounties are symbolic (no real money), else None."""
+    if repo in _POLICY_CACHE:
+        return _POLICY_CACHE[repo]
+    reason = None
+    for path in POLICY_FILES:
+        text = fetch_text(f"https://raw.githubusercontent.com/{repo}/HEAD/{path}")
+        if not text:
+            continue
+        m = SYMBOLIC_BOUNTY_RE.search(text)
+        if m:
+            reason = f"{path}: {m.group(0).strip()[:120]}"
+            break
+    _POLICY_CACHE[repo] = reason
+    return reason
 
 # ---------------------------------------------------------------- blocklist
 # Specific listings killed by a human/Muse audit. A blocklisted URL is rejected
@@ -586,8 +655,15 @@ def enrich_github(item):
             enr["linked_prs_merged"] = prs_merged
     except Exception as e:
         enr["timeline_error"] = str(e)[:120]
+    # repo rules (rail check): if the repo's own contribution policy says the
+    # bounties are symbolic, there is no money behind the listing at all.
+    policy = repo_policy_flag(repo)
+    if policy:
+        enr["repo_policy"] = policy
     item["enrich"] = enr
     # hard rejects discovered only by looking deeper
+    if enr.get("repo_policy"):
+        return f"repo policy says the bounties are symbolic (no real payment) - {enr['repo_policy']}"
     if enr.get("linked_prs_merged"):
         return f"already solved (merged PR #{enr['linked_prs_merged'][0]} references this issue)"
     if enr.get("maintainer_says_solved"):
@@ -746,6 +822,12 @@ def score_item(item):
     if item["source"].startswith("GitLab") and not enr.get("rail_confirmed"):
         total = min(total, 54)
         flags.append("tier capped: payment rail unconfirmed")
+    # Graveyard: solution PRs keep getting closed unmerged and NONE of them
+    # was ever merged. Nobody has won this work, so the bounty is a claim on
+    # paper - it cannot be called credible however big the number is.
+    if len(closed_prs) >= GRAVEYARD_CLOSED_PRS:
+        total = min(total, 54)
+        flags.append(f"tier capped: graveyard ({len(closed_prs)} linked PRs closed unmerged, none merged)")
 
     item["score"] = total
     item["score_detail"] = detail

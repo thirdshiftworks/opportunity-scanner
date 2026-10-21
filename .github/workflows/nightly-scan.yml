@@ -37,6 +37,9 @@ jobs:
       # Stdlib only — no pip install step on purpose.
       # A scanner failure fails this step (and the whole run) loudly:
       # no continue-on-error, no `|| true` here, ever.
+      - name: Run the scanner unit tests
+        run: python3 -m unittest discover -s tests -v
+
       - name: Run the scanner
         env:
           # Raises the GitHub API rate limit for enrichment calls.

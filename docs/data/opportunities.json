@@ -1,15 +1,5 @@
 [
  {
-  "title": "[ Bounty $1k ] [ API ] Add audit log for all admin actions — pre-audit",
-  "platform": "GitHub (bounty labels)",
-  "amount": 1600.0,
-  "url": "https://github.com/ClankerNation/OpenAgents/issues/184",
-  "score": 70,
-  "tier": "credible",
-  "is_new": true,
-  "note": "graveyard signal: 10 linked PRs closed unmerged"
- },
- {
   "title": "[stronger source] Zumigo supplies Microbilt (tier C)",
   "platform": "GitHub (bounty labels)",
   "amount": 300.0,

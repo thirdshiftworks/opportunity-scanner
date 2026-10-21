@@ -22,9 +22,10 @@ publishes the shortlist.
 3. Every listing passes hard filters (stated pay, work the studio can do,
    no stake/entry fees, no prompt-harvesting traps, no dead payment rails,
    no already-assigned or already-solved items), then deep verification
-   (comments, timelines, linked PRs, maintainer activity) and a **0–100
-   credibility score** with structural tier caps. A human-audited
-   **blocklist** (`blocklist.json`, 12 listings) can never resurface.
+   (comments, timelines, linked PRs, maintainer activity, the repo's own
+   contribution policy) and a **0–100 credibility score** with structural
+   tier caps. A human-audited **blocklist** (`blocklist.json`, 13 listings)
+   can never resurface.
 4. The scanner remembers what it has seen in **`seen.json`** at the repo
    root, so only genuinely **new** finds are ever news. The workflow commits
    the updated `seen.json` and dashboard data back to `main` as the
@@ -36,6 +37,10 @@ publishes the shortlist.
 6. For each **new credible** find, the workflow opens one issue in this
    repo (labelled `new`, duplicates guarded by title) so a human can audit
    it — repo rules, payment rail, fit — before anything is claimed.
+7. When an audit kills a find, the listing goes into **`blocklist.json`**
+   (URL → why it died) so it can never resurface, and the check that let it
+   through is added to the scanner's filters so the next one is caught
+   automatically.
 
 The scanner only ever *reads*. It never bids, comments, claims, opens PRs on
 other projects, sends messages, or spends anything. Acting on a find is a
@@ -53,6 +58,7 @@ not a verdict; every top find gets a manual read before the studio acts.
 | Path | What it is |
 |---|---|
 | `scan.py` | The scanner (stdlib-only Python) |
+| `tests/test_scan.py` | Unit tests for the filters (`python3 -m unittest discover -s tests`) |
 | `seen.json` | Seen-database: every listing the scanner has already surfaced |
 | `blocklist.json` | Audit-killed listings that must never resurface |
 | `.github/workflows/nightly-scan.yml` | The nightly robot worker |
