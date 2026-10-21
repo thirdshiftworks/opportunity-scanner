@@ -4,12 +4,12 @@
  "stamp": "20261021-074332",
  "counts": {
   "raw_total": 170,
-  "passed": 22,
-  "credible": 4,
+  "passed": 21,
+  "credible": 3,
   "plausible": 18,
-  "new": 5,
-  "new_credible": 2,
-  "opportunities_listed": 22
+  "new": 4,
+  "new_credible": 1,
+  "opportunities_listed": 21
  },
  "sources": {
   "Opire": {
@@ -19,8 +19,8 @@
   },
   "GitHub (bounty labels)": {
    "raw": 60,
-   "passed": 13,
-   "credible": 4
+   "passed": 12,
+   "credible": 3
   },
   "GitLab (bounty labels)": {
    "raw": 60,
@@ -54,17 +54,6 @@
   }
  },
  "new_credible": [
-  {
-   "title": "[ Bounty $1k ] [ API ] Add audit log for all admin actions — pre-audit",
-   "platform": "GitHub (bounty labels)",
-   "amount": 1600.0,
-   "url": "https://github.com/ClankerNation/OpenAgents/issues/184",
-   "score": 70,
-   "tier": "credible",
-   "is_new": true,
-   "note": "graveyard signal: 10 linked PRs closed unmerged",
-   "effort": "1-3 hrs"
-  },
   {
    "title": "[stronger source] Zumigo supplies Microbilt (tier C)",
    "platform": "GitHub (bounty labels)",
