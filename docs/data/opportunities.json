@@ -1,43 +1,23 @@
 [
  {
+  "title": "[BOUNTY] WearOS Support [$2340]",
+  "platform": "GitHub (bounty labels)",
+  "amount": 2340.0,
+  "url": "https://github.com/microg/GmsCore/issues/2843",
+  "score": 73,
+  "tier": "credible",
+  "is_new": false,
+  "note": "rail stated in issue only - re-verify before any work"
+ },
+ {
   "title": "[ Bounty $1k ] [ API ] Add audit log for all admin actions — pre-audit",
   "platform": "GitHub (bounty labels)",
   "amount": 1600.0,
   "url": "https://github.com/ClankerNation/OpenAgents/issues/184",
   "score": 70,
   "tier": "credible",
-  "is_new": true,
-  "note": "graveyard signal: 10 linked PRs closed unmerged"
- },
- {
-  "title": "[stronger source] Zumigo supplies Microbilt (tier C)",
-  "platform": "GitHub (bounty labels)",
-  "amount": 300.0,
-  "url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/333",
-  "score": 67,
-  "tier": "credible",
-  "is_new": true,
-  "note": "rail stated in issue only - re-verify before any work"
- },
- {
-  "title": "[BOUNTY $100] HOOK: Pre-tool-use hook that blocks destructive bash commands",
-  "platform": "GitHub (bounty labels)",
-  "amount": 100.0,
-  "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3",
-  "score": 57,
-  "tier": "credible",
   "is_new": false,
-  "note": "very busy thread: 1876 comments (claim split unknown)"
- },
- {
-  "title": "Bounty $50: recipe for Ryzen AI 890M (Radeon 890M iGPU)",
-  "platform": "GitHub (bounty labels)",
-  "amount": 50.0,
-  "url": "https://github.com/sybil-solutions/local-ai-registry/issues/223",
-  "score": 57,
-  "tier": "credible",
-  "is_new": false,
-  "note": "rail stated in issue only - re-verify before any work"
+  "note": "graveyard signal: 11 linked PRs closed unmerged"
  },
  {
   "title": "Privy.pro | Growth Marketing Engineer (AI-First) | REMOTE (Americas: US or LatAm) | Part-time contract, path to full-tim",
@@ -70,6 +50,16 @@
   "note": "no escrow on GitLab - rail must be confirmed in-issue before any work"
  },
  {
+  "title": "Automate Bug Detection and Reviews",
+  "platform": "GitHub (bounty labels)",
+  "amount": 800.0,
+  "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11398",
+  "score": 54,
+  "tier": "plausible",
+  "is_new": true,
+  "note": "open PR already targets this: [11416, 11451, 11459, 11462, 11465, 11472, 11474, 11476, 11478, 11480, 11482, 11484, 11486, 11488]"
+ },
+ {
   "title": "[PAID BOUNTY - $750] Email Threads API",
   "platform": "GitHub (bounty labels)",
   "amount": 750.0,
@@ -80,24 +70,44 @@
   "note": "open PR already targets this: [16, 20, 44, 61]"
  },
  {
-  "title": "Benchmark APIs with p50, p95, p99 latency, RPS, error rate and TTFB",
+  "title": "[Bounty: $700] Deep Recursive Generic Type Solver Fails Invariant Fuzzing in src/types/state.ts",
   "platform": "GitHub (bounty labels)",
-  "amount": 750.0,
-  "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/30",
+  "amount": 700.0,
+  "url": "https://github.com/Senthemodder/aquarium-of-gullibles/issues/5",
   "score": 54,
   "tier": "plausible",
-  "is_new": false,
-  "note": "open PR already targets this: [32, 34, 38, 43, 41, 37, 33, 31, 27, 26, 44, 49, 51, 54, 57, 59, 81, 119, 127]"
+  "is_new": true,
+  "note": "open PR already targets this: [10, 14, 19, 24, 28, 35, 36, 54, 58, 59]"
  },
  {
-  "title": "[$600] Export worker and workflow spans over OTLP: one trace from API request to every Temporal activity",
+  "title": "Low Handing Fruit Automation",
   "platform": "GitHub (bounty labels)",
-  "amount": 600.0,
-  "url": "https://github.com/oll4com/spaceapp/issues/61",
+  "amount": 700.0,
+  "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/743",
   "score": 54,
   "tier": "plausible",
   "is_new": false,
-  "note": "open PR already targets this: [70, 71, 82, 91, 104, 112, 115, 127, 129, 137, 138, 145, 147, 151, 162, 163, 177, 185, 192]"
+  "note": "open PR already targets this: [747, 756, 758, 765, 771, 780, 784, 788, 791, 794, 801, 803, 804, 805, 806]"
+ },
+ {
+  "title": "[$600] Support rootless Podman as a container engine in the run-spaceapp launcher",
+  "platform": "GitHub (bounty labels)",
+  "amount": 600.0,
+  "url": "https://github.com/oll4com/spaceapp/issues/63",
+  "score": 54,
+  "tier": "plausible",
+  "is_new": true,
+  "note": "open PR already targets this: [77, 79, 85, 101, 102, 107, 110, 117, 131, 144, 164, 176, 178, 183, 191, 201, 202, 241, 246]"
+ },
+ {
+  "title": "[$450] One command to run the full SpaceApp stack from source for contributors",
+  "platform": "GitHub (bounty labels)",
+  "amount": 450.0,
+  "url": "https://github.com/oll4com/spaceapp/issues/65",
+  "score": 54,
+  "tier": "plausible",
+  "is_new": false,
+  "note": "open PR already targets this: [69, 76, 78, 80, 84, 94, 108, 126, 130, 136, 142, 146, 153, 154, 156, 159, 167, 170, 180, 181, 1, 186, 199]"
  },
  {
   "title": "[PAID BOUNTY - $440] Messenger Group Chat Poll Creation & Voting UI",
@@ -110,34 +120,34 @@
   "note": "open PR already targets this: [12, 21, 8, 29, 47, 49, 62, 79, 89, 102, 113, 128]"
  },
  {
-  "title": "Technical Poem Generation and Content Creation",
+  "title": "[BOUNTY $75] TEMPLATE: CLAUDE.md for a Next.js + SQLite SaaS project",
   "platform": "GitHub (bounty labels)",
-  "amount": 430.0,
-  "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/76",
+  "amount": 75.0,
+  "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2",
   "score": 54,
+  "tier": "plausible",
+  "is_new": false,
+  "note": "very busy thread: 1606 comments (claim split unknown)"
+ },
+ {
+  "title": "[BOUNTY $50] SKILL: Generate a structured CHANGELOG from git history",
+  "platform": "GitHub (bounty labels)",
+  "amount": 50.0,
+  "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1",
+  "score": 54,
+  "tier": "plausible",
+  "is_new": false,
+  "note": "very busy thread: 2382 comments (claim split unknown)"
+ },
+ {
+  "title": "[BOUNTY $300] SSO — Authentik 统一身份认证",
+  "platform": "GitHub (bounty labels)",
+  "amount": 300.0,
+  "url": "https://github.com/illbnm/homelab-stack/issues/9",
+  "score": 53,
   "tier": "plausible",
   "is_new": true,
-  "note": "open PR already targets this: [88, 91, 94, 104, 117, 132, 133, 137, 139, 147, 148, 151, 159, 1, 162]"
- },
- {
-  "title": "[$400] Per-service container images: ship each image only the code and dependencies it runs",
-  "platform": "GitHub (bounty labels)",
-  "amount": 400.0,
-  "url": "https://github.com/oll4com/spaceapp/issues/64",
-  "score": 54,
-  "tier": "plausible",
-  "is_new": false,
-  "note": "open PR already targets this: [72, 73, 83, 86, 118, 120, 121, 123, 124, 132, 143, 148, 165, 175, 187, 190, 200, 205, 206]"
- },
- {
-  "title": "[BOUNTY $150] AGENT: Claude Code sub-agent that reviews a PR and posts a structured comment",
-  "platform": "GitHub (bounty labels)",
-  "amount": 150.0,
-  "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4",
-  "score": 54,
-  "tier": "plausible",
-  "is_new": false,
-  "note": "open PR already targets this: [10, 32, 54, 59, 70, 89, 114, 121, 122, 123, 139, 147, 152]"
+  "note": "open PR already targets this: [61]"
  },
  {
   "title": "Role: UX/UI Designer (BAY AREA, CA - HYBRID) 1099 CONTRACT",
@@ -166,6 +176,16 @@
   "url": "https://github.com/jomaaabbe78-spec/bookningsapp/issues/1",
   "score": 49,
   "tier": "plausible",
+  "is_new": false,
+  "note": "rail stated in issue only - re-verify before any work"
+ },
+ {
+  "title": "Open a Steamworks account ($100, BB1 only)",
+  "platform": "GitHub (bounty labels)",
+  "amount": 100.0,
+  "url": "https://github.com/goonspeakstudios-a11y/great-works-game/issues/17",
+  "score": 48,
+  "tier": "plausible",
   "is_new": true,
   "note": "rail stated in issue only - re-verify before any work"
  },
@@ -188,16 +208,6 @@
   "tier": "plausible",
   "is_new": false,
   "note": "no escrow on GitLab - rail must be confirmed in-issue before any work"
- },
- {
-  "title": "[BOUNTY] $5.00+ USDC: Adversarial Prompt Injection Bypass on CanaryGuard Firewall",
-  "platform": "GitHub (bounty labels)",
-  "amount": 5.0,
-  "url": "https://github.com/ak10082247-max/canaryguard-402/issues/2",
-  "score": 48,
-  "tier": "plausible",
-  "is_new": true,
-  "note": "rail stated in issue only - re-verify before any work"
  },
  {
   "title": "Senior Python Backend Engineer | REMOTE (EMEA/APAC) We're looking for Python backend engineers to work on a trustless su",

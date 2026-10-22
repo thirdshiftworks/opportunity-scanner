@@ -1,26 +1,26 @@
 {
  "scanner": "v2 (github-actions)",
- "scanned_at_utc": "2026-10-21T07:45:03Z",
- "stamp": "20261021-074332",
+ "scanned_at_utc": "2026-10-22T07:46:30Z",
+ "stamp": "20261022-074502",
  "counts": {
-  "raw_total": 170,
-  "passed": 22,
-  "credible": 4,
-  "plausible": 18,
+  "raw_total": 169,
+  "passed": 23,
+  "credible": 2,
+  "plausible": 21,
   "new": 5,
-  "new_credible": 2,
-  "opportunities_listed": 22
+  "new_credible": 0,
+  "opportunities_listed": 23
  },
  "sources": {
   "Opire": {
-   "raw": 4,
+   "raw": 3,
    "passed": 0,
    "credible": 0
   },
   "GitHub (bounty labels)": {
    "raw": 60,
-   "passed": 13,
-   "credible": 4
+   "passed": 15,
+   "credible": 2
   },
   "GitLab (bounty labels)": {
    "raw": 60,
@@ -53,28 +53,5 @@
    "credible": 0
   }
  },
- "new_credible": [
-  {
-   "title": "[ Bounty $1k ] [ API ] Add audit log for all admin actions — pre-audit",
-   "platform": "GitHub (bounty labels)",
-   "amount": 1600.0,
-   "url": "https://github.com/ClankerNation/OpenAgents/issues/184",
-   "score": 70,
-   "tier": "credible",
-   "is_new": true,
-   "note": "graveyard signal: 10 linked PRs closed unmerged",
-   "effort": "1-3 hrs"
-  },
-  {
-   "title": "[stronger source] Zumigo supplies Microbilt (tier C)",
-   "platform": "GitHub (bounty labels)",
-   "amount": 300.0,
-   "url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/333",
-   "score": 67,
-   "tier": "credible",
-   "is_new": true,
-   "note": "rail stated in issue only - re-verify before any work",
-   "effort": "1-3 hrs"
-  }
- ]
+ "new_credible": []
 }
